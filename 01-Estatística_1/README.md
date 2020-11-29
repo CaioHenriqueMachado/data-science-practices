@@ -1,6 +1,6 @@
 <h1 align="center"> DATA SCIENCE</h1>
 
-<h12 align="center"> Estatística I</h2>
+<h2> align="center"> Estatística I</h2>
 
 
 ### SUMÁRIO
@@ -25,11 +25,13 @@
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h1 align="center"> CONCEITOS GERAIS</h1>
+<br>
 
 ### ESTATÍSTICA
 
 Estatística é a ciência que se utiliza nas teorias probabilísticas para explicar a frequência da ocorrência de eventos, tanto em estudos observacionais quanto em experimentos para modelar a aleatoriedade e a incerteza de forma a estimar ou possibilitar a previsão de fenômenos futuros, conforme o caso.
 
+<br>
 
 ### PRINCIPAIS DIVISÕES:
 
@@ -54,7 +56,7 @@ Analisar situações sujeitas ao acaso.
 Obter respostas sobre um fenômeno com dados representativos.
 (Exemplo: Preferência de votos. Não é possível consultar todos eleitores, logo, é coletado apenas uma amostra para tentar fazer a representação de um todo)
 
-
+<br>
 
 ### CONCEITOS:
 
@@ -76,6 +78,7 @@ Condições ou tratamentos são impostos a grupos, para avaliar o resultado.
 </div>
 
 <br>
+
 ### EXEMPLOS:
 
 ### QUANTITATIVAS:
@@ -88,6 +91,7 @@ Condições ou tratamentos são impostos a grupos, para avaliar o resultado.
 <p>Nominais: Cores; Animal;</p>
 <p>Ordinais: Cargo;</p>
 
+<br>
 
 ### ANÁLISE DE RESULTADOS
 
