@@ -1,2 +1,9 @@
-# data-science-practices
-This repository is for putting my notes on data science.
+# DATA SCIENCE 
+
+## Repositório para inserir conceitos e técnicas sobre ciência de dados.
+
+
+### SUMÁRIO
+
+ - Estatística I
+ - Estatística II
