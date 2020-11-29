@@ -1,6 +1,6 @@
 <h1 align="center"> DATA SCIENCE</h1>
 
-<h2> align="center"> Estatística I</h2>
+<h2 align="center"> Estatística I</h2>
 
 
 ### SUMÁRIO
