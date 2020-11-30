@@ -21,6 +21,9 @@
 
     - Analise dos resultados
 
+- Análise exploratória de Dados
+
+- Amostragem
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
@@ -100,4 +103,54 @@ Estatísca não é exata, é necessário, INTERPRETAÇÃO, ESCOLHAS e AVALIAÇÃ
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h1 align="center">ANÁLISE EXPLORATÓRIA DE DADOS (AED)</h1>
+
+Busca/Obter informações ocultas sobre os dados.
+
+Após essa a técnica (Exploratory Data Analysis) EDA, decidir como buscar a solução para o problema.
+
+### Técnicas para localizar essas informações
+
+ - Variação
+ - Anomalias
+ - Distribuição
+ - Tendências
+ - Padrões
+ - Relações
+
+<div align="center">
+  <image src="./image/eda.png" alt="Web Version" height="400" width="80%">
+</div>
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center">AMOSTRAGEM</h1>
+
+É parte de uma população, selecionada usando alguma técnica que dê chances iguais para todos os elementos serem selecionados.
+
+CONCEITOS:
+
+População: Alvo de estudo.
+
+Amostra: Subconjunto da população.
+
+Censo: Pesquisa com toda população.
+
+As vezes é trabalhado com amostras pois fazer um censo pode ter um alvo custo ou impossível de se fazer.
+
+Uma amostra feita corretamente, deve representar as mesmas características de onde foi tirada. Terá o mesmo resultado da população inteira.
+
+Se a amostra não representa a população, dizemos que ela é INVIESADA.
+
+Trabalhar com uma amostra e inferencia, tem um preço e um risco.
+
+<div align="center">
+  <image src="./image/enviesamento.png" alt="Web Version" height="300" width="80%">
+</div>
+
+
+CUSTO DE USAR AMOSTRA:
+
+ - Margem de Erro e nível de Confiança.
+ - Variação: Amostrar diferentes pode apresentar resultados diferentes.
+ - Podemos "medir" a variação esperada.
 
