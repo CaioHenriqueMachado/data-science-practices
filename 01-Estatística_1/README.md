@@ -24,6 +24,11 @@
 - Análise exploratória de Dados
 
 - Amostragem
+    - Conceitos
+    - Custo de usar amostra
+    - Principais tipos de amostra
+
+
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
@@ -153,4 +158,48 @@ CUSTO DE USAR AMOSTRA:
  - Margem de Erro e nível de Confiança.
  - Variação: Amostrar diferentes pode apresentar resultados diferentes.
  - Podemos "medir" a variação esperada.
+
+### PRINCIPAIS TIPOS DE AMOSTRA:
+
+ - Amostra aleatória simples.
+ - Amostra Estratificada.
+ - Amostra Sistemática.
+
+
+### Amostra aleatória simples
+
+Um determinado número de elementos é retirado de forma aleatória.
+Usar técnica para que todos tenham a mesma chance de ser escolhido.
+(Indexar - Dá número para cada elemento da população, após isso, usa um algoritmo para gerar números aleatórios)
+
+Amostra aleatória simples COM REPOSIÇÃO:
+
+Ao ser escolhido, ele volta para a população podendo ser escolhido novamente. 
+
+ 
+Amostra aleatória simples SEM REPOSIÇÃO:
+
+Ao ser escolhido, não pode ser escolhida novamente.
+
+
+### Amostra Estratificada
+
+A população pode ser divididas e chamada por estratos.
+(Por exemplo: Dividido a partir do Sexo do elemento. Assim pegando X Homens para um grupo e X mulheres para outro grupo)
+
+### Amostra Sistemática
+
+É escolhido um número aleatório, e a partir daí vai pulando a cada N elementos.
+(Por exemplo: o primeiro número escolhido aleatóreamente é o número 5 e a partir daí vai pulando de três em três. Escolhidos: 5, 8, 11, 14 ...)
+
+
+
+
+
+
+
+
+
+
+
 
