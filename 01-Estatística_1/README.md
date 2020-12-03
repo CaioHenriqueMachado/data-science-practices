@@ -28,6 +28,16 @@
     - Custo de usar amostra
     - Principais tipos de amostra
 
+- Medidas de centralidade
+    - Média
+    - Moda
+    - Mediana
+
+- Medidas de variabilidade
+   - Variância
+   - Desvio Padrão
+   - Amplitude
+   - Não Centrais: Quartis
 
 
 <img src="./image/line.png" alt="line" width="100%">
@@ -191,6 +201,103 @@ A população pode ser divididas e chamada por estratos.
 
 É escolhido um número aleatório, e a partir daí vai pulando a cada N elementos.
 (Por exemplo: o primeiro número escolhido aleatóreamente é o número 5 e a partir daí vai pulando de três em três. Escolhidos: 5, 8, 11, 14 ...)
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<h1 align="center"> MEDIDAS DE CENTRALIDADE</h1>
+<br>
+
+
+### MÉDIA
+
+### Média 
+
+É uma medida de centralidade.
+
+Somar todos os custos dos elementos e dividir quandidade de elementos.
+
+Média pode ser influenciada por valores foras do padrão, diferente da Mediana.
+
+### Média Ponderada
+
+Cada número está sujeito a um peso.
+
+Exemplo:
+ - Prova A peso 1, nota 7.
+ - Prova B peso 2, nota 9.
+
+média = ( 7*1  +  9*2  ) / (1 + 2)  = 8,3
+
+### MODA
+
+É o valor que mais ocorre. Pode ter 2 valores que mais ocorrem.
+
+Exemplo:
+ - Idades: 10, 12, 20, 10.
+ - A moda é 10.
+
+Pode não existir uma moda (caso não tenha valores repitidos).
+
+### MEDIANA
+
+ - Valor do meio.
+
+ - Ordena-se os valores em ordem crescente.
+
+ - Se a quantidade de elementos for par, você tira a média dos dois valores no centro e terá a mediana.
+
+ - Se a quandidade de elementos for impar, a mediana será o elemento do meio. 
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<h1 align="center"> MEDIDAS DE VARIABILIDADE</h1>
+<br>
+
+### VARIÂNCIA
+
+Mostra a regularidade dos dados. Como os dados variam com relação a média.
+
+Há duas fórmulas, variância do elemento e variância da população.
+
+
+### DESVIO PADRÃO
+
+Quanto maior o desvio, mais os dados estão distantes da média.
+
+Se for igual a zero, significa que não existe variação nos dados. (Eles são iguais)
+
+Calculo: Raiz quadrada da Variância.
+
+ 
+### AMPLITUDE
+
+Diferença entre o maior e menor valor.
+
+### NÃO CENTRAIS: QUARTIS
+
+São três quartis:
+
+ - Q0: É o menor valor
+ - Q1: 25% dos menores valores
+ - Q2: 50% (equivale a mediana)
+ - Q3: 75% dos maiores valores
+ - Q4: É o maior valor
+
+
+<h1 align="center"> NOTAÇÕES</h1>
+<div align="center">
+  <image src="./image/notacoes.png" alt="data_science" height="300" width="80%">
+</div>
+<br>
+<div align="center">
+  <image src="./image/variancia_desvio.png" alt="data_science" height="300" width="80%">
+</div>
+
+
+
+
+
 
 
 
