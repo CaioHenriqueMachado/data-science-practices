@@ -39,6 +39,9 @@
    - Amplitude
    - Não Centrais: Quartis
 
+- Probabilidade
+
+
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
@@ -293,6 +296,99 @@ São três quartis:
 <div align="center">
   <image src="./image/variancia_desvio.png" alt="data_science" height="300" width="80%">
 </div>
+
+
+
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center"> PROBABILIDADE</h1>
+<br>
+
+É a chance de um evento acontecer.
+
+<br>
+<div align="center">
+  <image src="./image/probabilidade_1.png" alt="data_science" height="300" width="80%">
+</div>
+
+
+### CONCEITOS
+
+ - Experimento: O que está sendo estudado
+ - Espaço Amostral: Todas as possibilidades de ocorrência do evento.
+ - Evento: Resultado ocorrido
+
+### Exemplo: 
+
+ - Experimento: Jogar moeda.
+ - Espaço Amostral: Cara ou Coroa.
+ - Evento: "Deu coroa !".
+
+
+### EVENTOS EXCLUDENTES
+
+Eventos que não podem ocorrer ao mesmo tempo.
+(Exemplo: Jogar um dado e ser 1 e par)
+
+- Jogar um dado e dar 1 ou par: (1/6 + 3/6)  P = 4/6, P = 0,66
+
+### EVENTOS NÃO EXCLUDENTES
+
+Eventos que podem ocorrer ao mesmo tempo.
+(Exemplo: Jogar um dado e ser 2 e par)
+
+- Jogar um dado e dar 2 ou par: (1/6 + 3/6 - 1/6)  P = 3/6, P = 0,5
+
+### EVENTOS DEPENDENTES
+
+A ocorrência de um evento afeta o outro. Um tem que ocorrer para depois que o outro ocorra.
+(Exemplo: Tirar duas cartas do baralho sem repor. Sendo que a segunda carta deve ser dama de paus)
+
+Com 6 cartas na mão (A, 2, 3, 4, 5, 6), qual a probabilidade de primeiro evento tirar A e no segundo evento tirar 4.
+
+P = (1/6 * 1/5) = 1/30 => 0,033
+
+
+### EVENTOS INDEPENDENTES
+
+A ocorrência de um evento não afeta o outro.
+(Exemplo: jogar um dado. A probabilidade de dar 3 é sempre a mesma)
+
+Qual a probabilidade de jogar dois dados, e dar 1 e 6: (dois eventos independentes)
+REPOSTA:	P = (1/6 * 1/6) => P = 1/36 => 0,027
+
+### Único evento
+
+Calculo 
+
+P = (Ocorrência Esperada) / (Número de Eventos Possíveis)
+
+
+Exemplos:
+
+- Jogar uma moeda e dar cara: P = 1/2, P = 0,5
+
+- Jogar um dado e dar 6: P = 1/6, P = 0,16
+
+- Jogar um dado e dar 1 ou 6: P = 2/6, P = 0,33
+
+- Jogar um dado e dar 1, 2, 3, 4, 5 ou 6: P = 6/6, P = 1
+
+- Jogar um dado e dar ímpar ou maior que 4: P = 4/6, P = 0,66
+
+
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center"> PEQUENAS AMOSTRAS</h1>
+<br>
+
+
+
+
+
+
 
 
 
