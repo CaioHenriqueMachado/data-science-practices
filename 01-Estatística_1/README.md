@@ -385,10 +385,74 @@ Exemplos:
 <br>
 
 
+ - Probabilidade de conclusões falsas
+ - Não reprodutivo
+ - Não comparável
 
 
 
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center"> PASSEIO ALEATÓRIO</h1>
+<br>
 
+<br>
+<div align="center">
+  <image src="./image/passeio_aleatorio.png" alt="data_science" height="300" width="80%">
+</div>
+
+
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center"> ESTOCÁSTICO X DETERMINISTICO</h1>
+<br>
+
+
+### Processo Estocástico
+
+Com um algoritmo. Dada uma mesma entrada, a saída pode variar.
+
+
+### Processo Deterministico
+
+Com um algoritmo. Dada uma mesma entrada, apresenta sempre a mesma saída.
+
+
+
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center"> PROBABILIDADE EM JOGOS DE AZAR</h1>
+<br>
+
+ - São eventos independentes.
+
+ - A probabilidade de sortear:
+   -  1,2,3,4,5 e 6
+   - Os seus números favoritos.
+   - Ou qualquer outra combinação.
+
+São as mesmas probabilidades !!!
+
+
+<br>
+<div align="center">
+  <image src="./image/mega.png" alt="data_science" height="300" width="80%">
+</div>
+
+
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center"> DISTRIBUIÇÃO</h1>
+<br>
+
+
+- Usado principalmente na teoria da probabilidade
+- Mostra o comportamento de dados aleatórios
+- Uma forma de analisar é por meio de um histograma
 
 
 
