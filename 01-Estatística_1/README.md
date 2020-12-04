@@ -72,34 +72,36 @@
 <h1 align="center" id="conceitos"> CONCEITOS GERAIS</h1>
 <br>
 
-### ESTATÍSTICA
+<h3> ESTATÍSTICA </h3>
 
-Estatística é a ciência que se utiliza nas teorias probabilísticas para explicar a frequência da ocorrência de eventos, tanto em estudos observacionais quanto em experimentos para modelar a aleatoriedade e a incerteza de forma a estimar ou possibilitar a previsão de fenômenos futuros, conforme o caso.
+Estatística é a ciência que se utiliza nas teorias probabilísticas para explicar a frequência da ocorrência de eventos, 
+tanto em estudos observacionais quanto em experimentos para modelar a aleatoriedade e a incerteza de forma a estimar ou 
+possibilitar a previsão de fenômenos futuros, conforme o caso.
 
 <br>
 
-### PRINCIPAIS DIVISÕES:
+<h3> PRINCIPAIS DIVISÕES </h3>
 
  - Estatística Descritiva
  - Estatística Probabilística
  - Estatística Inferêncial
 
 
-### Estatística Descritiva: 
+**Estatística Descritiva:** 
 
 Organizar, demonstrar e resumir dados. A intensão é torna-los apresentaveis.
-(Muito usada na analise exploratória e apresentação de resultados)
+> Muito usada na analise exploratória e apresentação de resultados.
 
 
-### Estatística Probabilística: 
+**Estatística Probabilística:** 
 
 Analisar situações sujeitas ao acaso.
-(Exemplo: jogar uma moeda e ver se irá dar "cara" ou "coroa")
+> Exemplo: jogar uma moeda e ver se irá dar "cara" ou "coroa".
 
-### Estatística Inferêncial:
+** Estatística Inferêncial:**
 
 Obter respostas sobre um fenômeno com dados representativos.
-(Exemplo: Preferência de votos. Não é possível consultar todos eleitores, logo, é coletado apenas uma amostra para tentar fazer a representação de um todo)
+> Exemplo: Preferência de votos. Não é possível consultar todos eleitores, logo, é coletado apenas uma amostra para tentar fazer a representação de um todo.
 
 <br>
 
