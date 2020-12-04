@@ -8,63 +8,63 @@
 ### SUMÁRIO
 
 - [Conceitos gerais](#1)
-  - [O que é estatística?](#1_2)
+  - [O que é estatística?](#1_1)
 
-  - Principais divisões
+  - [Principais divisões](#1_2)
     - Estatística Descritiva
     - Estatística Probabilística
     - Estatística Inferêncial
 
-  - Conceitos
+  - [Conceitos](#1_3)
     - Observação
     - Experimento
 
-  - Variaveis
+  - [Variaveis](#1_4)
 
-  - Analise dos resultados
+  - [Analise dos resultados](#1_5)
 
-- Análise exploratória de Dados
+- [Análise exploratória de Dados](#2)
 
-- Amostragem
-  - Conceitos
-  - Custo de usar amostra
-  - Principais tipos de amostra
+- [Amostragem](#3)
+  - [Conceitos](#3_1)
+  - [Custo de usar amostra](#3_2)
+  - [Principais tipos de amostra](#3_3)
 
-- Pequenas Amostras
+- [Pequenas Amostras](#4)
 
-- Medidas de Centralidade
-  - Média
-  - Moda
-  - Mediana
+- [Medidas de Centralidade](#5)
+  - [Média](#5_1)
+  - [Moda](#5_2)
+  - [Mediana](#5_3)
 
-- Medidas de Variabilidade
-  - Variância
-  - Desvio Padrão
-  - Amplitude
-  - Não Centrais: Quartis
-  - Notações
+- [Medidas de Variabilidade](#6)
+  - [Variância](#6_1)
+  - [Desvio Padrão](#6_2)
+  - [Amplitude](#6_3)
+  - [Não Centrais: Quartis](#6_4)
+  - [Notações](#6_5)
 
-- Probabilidade
-  - Conceitos
-  - Eventos Excludentes
-  - Eventos não Excludentes
-  - Eventos dependentes
-  - Eventos independentes
-  - Único evento
+- [Probabilidade](#7)
+  - [Conceitos](#7_1)
+  - [Eventos Excludentes](#7_2)
+  - [Eventos não Excludentes](#7_3)
+  - [Eventos dependentes](#7_4)
+  - [Eventos independentes](#7_5)
+  - [Único evento](#7_6)
 
-- Passeio Aleatório
+- [Passeio Aleatório](#8)
 
-- Estocástico X Deterministico
+- [Estocástico X Deterministico](#9)
 
-- Probabilidade em jogos de Azar
+- [Probabilidade em jogos de Azar](#10)
 
-- Distribuição
+- [Distribuição](#11)
 
-- Distribuição Gaussiana
+- [Distribuição Gaussiana](#12)
 
-- Teorema central do limite
+- [Teorema central do limite](#13)
 
-- Estatística não paramétrica
+- [Estatística não paramétrica](#14)
 
 
 <img src="./image/line.png" alt="line" width="100%">
@@ -72,7 +72,7 @@
 <h1 align="center" id="1"> CONCEITOS GERAIS</h1>
 <br>
 
-<h3 id="1_2"> ESTATÍSTICA </h3>
+<h3 id="1_1"> ESTATÍSTICA </h3>
 
 Estatística é a ciência que se utiliza nas teorias probabilísticas para explicar a frequência da ocorrência de eventos, 
 tanto em estudos observacionais quanto em experimentos para modelar a aleatoriedade e a incerteza de forma a estimar ou 
@@ -80,55 +80,55 @@ possibilitar a previsão de fenômenos futuros, conforme o caso.
 
 <br>
 
-<h3> PRINCIPAIS DIVISÕES </h3>
+<h3 id="1_2"> PRINCIPAIS DIVISÕES </h3>
 
-**  - Estatística Descritiva:** 
+**- Estatística Descritiva:** 
 
 Organizar, demonstrar e resumir dados. A intensão é torna-los apresentaveis.
 > Muito usada na analise exploratória e apresentação de resultados.
 <br>
 
-**  - Estatística Probabilística:** 
+**- Estatística Probabilística:** 
 
 Analisar situações sujeitas ao acaso.
 > Exemplo: jogar uma moeda e ver se irá dar "cara" ou "coroa".
 <br>
 
-**  - Estatística Inferêncial:**
+**- Estatística Inferêncial:**
 
 Obter respostas sobre um fenômeno com dados representativos.
 > Exemplo: Preferência de votos. Não é possível consultar todos eleitores, logo, é coletado apenas uma amostra para tentar fazer a representação de um todo.
 <br>
 
 
-<h3> CONCEITOS </h3>
+<h3 id="1_3"> CONCEITOS </h3>
 
-**  - Observação:**
+**- Observação:**
 
 Estudo em que os elementos analisados não são afetados (Apenas uma pesquisa).
 > Exemplo: Preferência de votos. Não tem como mudar a opinião do eleitor, pois você só está perguntando e pesquisando)
 <br>
 
-**  - Experimentos:**
+**- Experimentos:**
 
 Condições ou tratamentos são impostos a grupos, para avaliar o resultado. 
 > Exemplo: Ver o quanto uma vacina é efetiva. Separa em grupos e em um dos grupos aplica uma vacina Placebo(Será o seu grupo de controle. Sem niguém saber, nem os médicos). Para que você analise uma grupo que tomou e outro que não tomou a vacina e assim veja o nível de efetividade da vacina
 <br>
 
-<h1 align="center">VARIAVEIS </h1>
+<h1 align="center"  id="1_4">VARIAVEIS </h1>
 
 <div align="center">
   <image src="./image/variaveis.png" alt="Web Version" height="400" width="80%">
 </div>
 
 <br>
-
 <h3>EXEMPLOS:</h3>
 
 <h4>QUANTITATIVAS:</h4>
 
-<p>**Contínuas:** Altura; Peso;</p>
-<p>**Discretas:** Número de voltas na pista; Idade; Quantidade de filhos;</p>
+**Contínuas:** Altura; Peso;
+
+**Discretas:** Número de voltas na pista; Idade; Quantidade de filhos;
 
 <h4>QUALITATIVAS:</h4>
 
@@ -137,13 +137,14 @@ Condições ou tratamentos são impostos a grupos, para avaliar o resultado.
 
 <br>
 
-<h3>ANÁLISE DE RESULTADOS</h3>
+<h3 id="1_5">ANÁLISE DE RESULTADOS</h3>
 
 Estatísca não é exata, é necessário, **INTERPRETAÇÃO**, **ESCOLHAS** e **AVALIAÇÃO**. Uma outra pessoa pode não ter o mesmo resultado que você, pois ela pode ter usado dados ou métodos diferentes. Cabe ao cientista decidicir como ele vai analisar seus resultados.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center">ANÁLISE EXPLORATÓRIA DE DADOS (AED)</h1>
+<h1 align="center"  id="2">ANÁLISE EXPLORATÓRIA DE DADOS (AED)</h1>
+<br>
 
 <h3>CONCEITO</h3>
 
@@ -166,12 +167,12 @@ Após essa a técnica (Exploratory Data Analysis) EDA, decidir como buscar a sol
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-
-<h1 align="center">AMOSTRAGEM</h1>
+<h1 align="center" id="3">AMOSTRAGEM</h1>
+<br>
 
 É parte de uma população, selecionada usando alguma técnica que dê chances iguais para todos os elementos serem selecionados.
 
-<h3>CONCEITOS:</h3>
+<h3 id="3_1">CONCEITOS:</h3>
 
 **População:** Alvo de estudo.
 
@@ -192,44 +193,39 @@ Trabalhar com uma amostra e inferencia, tem um preço e um risco.
 </div>
 
 
-<h3>CUSTO DE USAR AMOSTRA:</h3>
+<h3 id="3_2">CUSTO DE USAR AMOSTRA:</h3>
 
  - Margem de Erro e nível de Confiança.
  - Variação: Amostrar diferentes pode apresentar resultados diferentes.
  - Podemos "medir" a variação esperada.
 
-<h3>PRINCIPAIS TIPOS DE AMOSTRA:</h3>
+<h3 id="3_3">PRINCIPAIS TIPOS DE AMOSTRA:</h3>
 
- - Amostra aleatória simples.
- - Amostra Estratificada.
- - Amostra Sistemática.
-
-
-**  - Amostra aleatória simples:**
+**- Amostra aleatória simples:**
 
 Um determinado número de elementos é retirado de forma aleatória.
 Usar técnica para que todos tenham a mesma chance de ser escolhido.
 > Indexar - Dá número para cada elemento da população, após isso, usa um algoritmo para gerar números aleatórios
 <br>
 
-**  - Amostra aleatória simples com reposição:**
+**- Amostra aleatória simples com reposição:**
 
 Ao ser escolhido, ele volta para a população podendo ser escolhido novamente. 
 <br>
  
-**  - Amostra aleatória simples sem reposição:**
+**- Amostra aleatória simples sem reposição:**
 
 Ao ser escolhido, não pode ser escolhida novamente.
 <br>
 
 
-**  - Amostra Estratificada:**
+**- Amostra Estratificada:**
 
 A população pode ser divididas e chamada por estratos.
 > Por exemplo: Dividido a partir do Sexo do elemento. Assim pegando X Homens para um grupo e X mulheres para outro grupo.
 <br>
 
-**  - Amostra Sistemática: **
+**- Amostra Sistemática:**
 
 É escolhido um número aleatório, e a partir daí vai pulando a cada N elementos.
 > Por exemplo: o primeiro número escolhido aleatóreamente é o número 5 e a partir daí vai pulando de três em três. Escolhidos: 5, 8, 11, 14 ...
@@ -240,7 +236,7 @@ A população pode ser divididas e chamada por estratos.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> PEQUENAS AMOSTRAS</h1>
+<h1 align="center"  id="4"> PEQUENAS AMOSTRAS</h1>
 <br>
 
 
@@ -252,11 +248,11 @@ A população pode ser divididas e chamada por estratos.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> MEDIDAS DE CENTRALIDADE</h1>
+<h1 align="center"  id="5"> MEDIDAS DE CENTRALIDADE</h1>
 <br>
 
 
-<h3>MÉDIA</h3>
+<h3 id="5_1">MÉDIA</h3>
 
 - É uma medida de centralidade.
 - Somar todos os custos dos elementos e dividir quandidade de elementos.
@@ -273,7 +269,7 @@ Cada número está sujeito a um peso.
 > CALCULO => média = ( 7*1  +  9*2  ) / (1 + 2)  = 8,3
 
 <br>
-<h3>MODA</h3>
+<h3  id="5_2">MODA</h3>
 <br>
 
 
@@ -286,7 +282,7 @@ Cada número está sujeito a um peso.
 > Pode não existir uma moda (caso não tenha valores repetidos).
 
 <br>
-<h3>MEDIANA</h3>
+<h3 id="5_3">MEDIANA</h3>
 <br>
 
  - Valor do meio.
@@ -300,28 +296,28 @@ Cada número está sujeito a um peso.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> MEDIDAS DE VARIABILIDADE</h1>
+<h1 align="center" id="6"> MEDIDAS DE VARIABILIDADE</h1>
 <br>
 
-<h3>VARIÂNCIA</h3>
+<h3 id="6_1">VARIÂNCIA</h3>
 
 - Mostra a regularidade dos dados. Como os dados variam com relação a média.
 
 - Há duas fórmulas, variância do elemento e variância da população.
 
 
-<h3>DESVIO PADRÃO</h3>
+<h3 id="6_2">DESVIO PADRÃO</h3>
 
 - Quanto maior o desvio, mais os dados estão distantes da média.
 - Se for igual a zero, significa que não existe variação nos dados. (Eles são iguais)
 > Calculo: Raiz quadrada da Variância.
 
  
-<h3>AMPLITUDE</h3>
+<h3 id="6_3">AMPLITUDE</h3>
 
 - Diferença entre o maior e menor valor.
 
-<h3>NÃO CENTRAIS: QUARTIS</h1>
+<h3 id="6_4">NÃO CENTRAIS: QUARTIS</h1>
 
 - Q0: É o menor valor
 - Q1: 25% dos menores valores
@@ -330,7 +326,7 @@ Cada número está sujeito a um peso.
 - Q4: É o maior valor
 
 
-<h1 align="center"> NOTAÇÕES</h1>
+<h1 align="center" id="6_5"> NOTAÇÕES</h1>
 <div align="center">
   <image src="./image/notacoes.png" alt="data_science" height="300" width="80%">
 </div>
@@ -341,10 +337,10 @@ Cada número está sujeito a um peso.
 
 
 
-<br>
+
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> PROBABILIDADE</h1>
+<h1 align="center" id="7"> PROBABILIDADE</h1>
 <br>
 
 É a chance de um evento acontecer.
@@ -355,7 +351,7 @@ Cada número está sujeito a um peso.
 </div>
 
 
-<h3>CONCEITOS</h3>
+<h3 id="7_1">CONCEITOS</h3>
 
  - Experimento: O que está sendo estudado
  - Espaço Amostral: Todas as possibilidades de ocorrência do evento.
@@ -368,21 +364,21 @@ Cada número está sujeito a um peso.
  - Evento: "Deu coroa !".
 
 
-<h3>EVENTOS EXCLUDENTES</h3>
+<h3 id="7_2">EVENTOS EXCLUDENTES</h3>
 
 - Eventos que não podem ocorrer ao mesmo tempo.
 > Exemplo 1: Jogar um dado e ser 1 e par
 
 > Exemplo 2: Jogar um dado e dar 1 ou par: (1/6 + 3/6)  P = 4/6, P = 0,66
 
-<h3>EVENTOS NÃO EXCLUDENTES</h3>
+<h3 id="7_3">EVENTOS NÃO EXCLUDENTES</h3>
 
 - Eventos que podem ocorrer ao mesmo tempo.
 > Exemplo 1: Jogar um dado e ser 2 e par
 
 > Exemplo 2: Jogar um dado e dar 2 ou par: (1/6 + 3/6 - 1/6)  P = 3/6, P = 0,5
 
-<h3>EVENTOS DEPENDENTES</h3>
+<h3 id="7_4">EVENTOS DEPENDENTES</h3>
 
 - A ocorrência de um evento afeta o outro. Um tem que ocorrer para depois que o outro ocorra.
 > Exemplo 1: Tirar duas cartas do baralho sem repor. Sendo que a segunda carta deve ser dama de paus
@@ -392,7 +388,7 @@ Cada número está sujeito a um peso.
 
 
 <br>
-<h3>EVENTOS INDEPENDENTES</h3>
+<h3 id="7_5">EVENTOS INDEPENDENTES</h3>
 
 - A ocorrência de um evento não afeta o outro.
 > Exemplo 1: jogar um dado. A probabilidade de dar 3 é sempre a mesma.
@@ -401,7 +397,7 @@ Cada número está sujeito a um peso.
 > REPOSTA: P = (1/6 * 1/6) => P = 1/36 => 0,027
 
 <br>
-<h3>ÚNICO EVENTO</h3>
+<h3 id="7_6">ÚNICO EVENTO</h3>
 
 **Calculo** 
 
@@ -423,7 +419,7 @@ Cada número está sujeito a um peso.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> PASSEIO ALEATÓRIO</h1>
+<h1 align="center" id="8"> PASSEIO ALEATÓRIO</h1>
 <br>
 
 <br>
@@ -432,10 +428,9 @@ Cada número está sujeito a um peso.
 </div>
 
 
-<br>
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> ESTOCÁSTICO X DETERMINISTICO</h1>
+<h1 align="center" id="9"> ESTOCÁSTICO X DETERMINISTICO</h1>
 <br>
 
 
@@ -450,10 +445,10 @@ Com um algoritmo. Dada uma mesma entrada, apresenta sempre a mesma saída.
 
 
 
-<br>
+
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> PROBABILIDADE EM JOGOS DE AZAR</h1>
+<h1 align="center" id="10"> PROBABILIDADE EM JOGOS DE AZAR</h1>
 <br>
 
  - São eventos independentes.
@@ -475,7 +470,7 @@ Com um algoritmo. Dada uma mesma entrada, apresenta sempre a mesma saída.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> DISTRIBUIÇÃO</h1>
+<h1 align="center" id="11"> DISTRIBUIÇÃO</h1>
 <br>
 
 
@@ -487,7 +482,7 @@ Com um algoritmo. Dada uma mesma entrada, apresenta sempre a mesma saída.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> DISTRIBUIÇÃO NORMAL OU GAUSSIANA</h1>
+<h1 align="center" id="12"> DISTRIBUIÇÃO NORMAL OU GAUSSIANA</h1>
 <br>
 
  - É uma distribuição onde os dados se apresentam como sino e nele tem uma simetria dos dados.
@@ -583,7 +578,7 @@ Com um algoritmo. Dada uma mesma entrada, apresenta sempre a mesma saída.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center">TEOREMA CENTRAL DO LIMITE</h1>
+<h1 align="center" id="13">TEOREMA CENTRAL DO LIMITE</h1>
 <br>
 
 
@@ -591,12 +586,12 @@ Com um algoritmo. Dada uma mesma entrada, apresenta sempre a mesma saída.
 <div align="center">
   <image src="./image/teorema_central_limite.png" alt="data_science" height="300" width="80%">
 </div>
-
-
 <br>
+
+
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center">ESTATÍSTICA NÃO PARAMÉTRICA</h1>
+<h1 align="center" id="14">ESTATÍSTICA NÃO PARAMÉTRICA</h1>
 <br>
 
 - Não é abordado esta parte no curso.
