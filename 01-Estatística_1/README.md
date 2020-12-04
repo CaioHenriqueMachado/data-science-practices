@@ -7,8 +7,8 @@
 
 ### SUMÁRIO
 
-- [Conceitos gerais](#conceitos)
-  - O que é estatística?
+- [Conceitos gerais](#1)
+  - [O que é estatística?](#1_2)
 
   - Principais divisões
     - Estatística Descritiva
@@ -69,10 +69,10 @@
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center" id="conceitos"> CONCEITOS GERAIS</h1>
+<h1 align="center" id="1"> CONCEITOS GERAIS</h1>
 <br>
 
-<h3> ESTATÍSTICA </h3>
+<h3 id="1_2"> ESTATÍSTICA </h3>
 
 Estatística é a ciência que se utiliza nas teorias probabilísticas para explicar a frequência da ocorrência de eventos, 
 tanto em estudos observacionais quanto em experimentos para modelar a aleatoriedade e a incerteza de forma a estimar ou 
@@ -82,41 +82,38 @@ possibilitar a previsão de fenômenos futuros, conforme o caso.
 
 <h3> PRINCIPAIS DIVISÕES </h3>
 
- - Estatística Descritiva
- - Estatística Probabilística
- - Estatística Inferêncial
-
-
-**Estatística Descritiva:** 
+**  - Estatística Descritiva:** 
 
 Organizar, demonstrar e resumir dados. A intensão é torna-los apresentaveis.
 > Muito usada na analise exploratória e apresentação de resultados.
+<br>
 
-
-**Estatística Probabilística:** 
+**  - Estatística Probabilística:** 
 
 Analisar situações sujeitas ao acaso.
 > Exemplo: jogar uma moeda e ver se irá dar "cara" ou "coroa".
+<br>
 
-** Estatística Inferêncial:**
+**  - Estatística Inferêncial:**
 
 Obter respostas sobre um fenômeno com dados representativos.
 > Exemplo: Preferência de votos. Não é possível consultar todos eleitores, logo, é coletado apenas uma amostra para tentar fazer a representação de um todo.
-
 <br>
 
-### CONCEITOS:
 
-### Observação: 
+<h3> CONCEITOS </h3>
 
-Estudo em que os elementos analisados não são afetados (pesquisa).
-(Exemplo: Preferência de votos. Não tem como mudar a opinião do eleitor, pois você só está perguntando e pesquisando)
+**  - Observação:**
 
-### Experimentos: 
+Estudo em que os elementos analisados não são afetados (Apenas uma pesquisa).
+> Exemplo: Preferência de votos. Não tem como mudar a opinião do eleitor, pois você só está perguntando e pesquisando)
+<br>
+
+**  - Experimentos:**
 
 Condições ou tratamentos são impostos a grupos, para avaliar o resultado. 
-(Exemplo: Ver o quanto uma vacina é efetiva. Separa em grupos e em um dos grupos aplica uma vacina Placebo(Será o seu grupo de controle. Sem niguém saber, nem os médicos). Para que você analise uma grupo que tomou e outro que não tomou a vacina e assim veja o nível de efetividade da vacina)
-
+> Exemplo: Ver o quanto uma vacina é efetiva. Separa em grupos e em um dos grupos aplica uma vacina Placebo(Será o seu grupo de controle. Sem niguém saber, nem os médicos). Para que você analise uma grupo que tomou e outro que não tomou a vacina e assim veja o nível de efetividade da vacina
+<br>
 
 <h1 align="center">VARIAVEIS </h1>
 
@@ -126,33 +123,35 @@ Condições ou tratamentos são impostos a grupos, para avaliar o resultado.
 
 <br>
 
-### EXEMPLOS:
+<h3>EXEMPLOS:</h3>
 
-### QUANTITATIVAS:
+<h4>QUANTITATIVAS:</h4>
 
-<p>Contínuas: Altura; Peso;</p>
-<p>Discretas: Número de voltas na pista; Idade; Quantidade de filhos;</p>
+<p>**Contínuas:** Altura; Peso;</p>
+<p>**Discretas:** Número de voltas na pista; Idade; Quantidade de filhos;</p>
 
-### QUALITATIVAS:
+<h4>QUALITATIVAS:</h4>
 
-<p>Nominais: Cores; Animal;</p>
-<p>Ordinais: Cargo;</p>
+<p>**Nominais:** Cores; Animal;</p>
+<p>**Ordinais:** Cargo;</p>
 
 <br>
 
-### ANÁLISE DE RESULTADOS
+<h3>ANÁLISE DE RESULTADOS</h3>
 
-Estatísca não é exata, é necessário, INTERPRETAÇÃO, ESCOLHAS e AVALIAÇÃO. Uma outra pessoa pode não ter o mesmo resultado que você, pois ela pode ter usado dados ou métodos diferentes. Cabe ao cientista decidicir como ele vai analisar seus resultados.
+Estatísca não é exata, é necessário, **INTERPRETAÇÃO**, **ESCOLHAS** e **AVALIAÇÃO**. Uma outra pessoa pode não ter o mesmo resultado que você, pois ela pode ter usado dados ou métodos diferentes. Cabe ao cientista decidicir como ele vai analisar seus resultados.
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h1 align="center">ANÁLISE EXPLORATÓRIA DE DADOS (AED)</h1>
 
+<h3>CONCEITO</h3>
+
 Busca/Obter informações ocultas sobre os dados.
 
 Após essa a técnica (Exploratory Data Analysis) EDA, decidir como buscar a solução para o problema.
 
-### Técnicas para localizar essas informações
+<h3>Técnicas para localizar essas informações:</h3>
 
  - Variação
  - Anomalias
@@ -167,23 +166,24 @@ Após essa a técnica (Exploratory Data Analysis) EDA, decidir como buscar a sol
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
+
 <h1 align="center">AMOSTRAGEM</h1>
 
 É parte de uma população, selecionada usando alguma técnica que dê chances iguais para todos os elementos serem selecionados.
 
-CONCEITOS:
+<h3>CONCEITOS:</h3>
 
-População: Alvo de estudo.
+**População:** Alvo de estudo.
 
-Amostra: Subconjunto da população.
+**Amostra:** Subconjunto da população.
 
-Censo: Pesquisa com toda população.
+**Censo:** Pesquisa com toda população.
 
 As vezes é trabalhado com amostras pois fazer um censo pode ter um alvo custo ou impossível de se fazer.
 
 Uma amostra feita corretamente, deve representar as mesmas características de onde foi tirada. Terá o mesmo resultado da população inteira.
 
-Se a amostra não representa a população, dizemos que ela é INVIESADA.
+Se a amostra não representa a população, dizemos que ela é **INVIESADA**.
 
 Trabalhar com uma amostra e inferencia, tem um preço e um risco.
 
@@ -192,83 +192,102 @@ Trabalhar com uma amostra e inferencia, tem um preço e um risco.
 </div>
 
 
-CUSTO DE USAR AMOSTRA:
+<h3>CUSTO DE USAR AMOSTRA:</h3>
 
  - Margem de Erro e nível de Confiança.
  - Variação: Amostrar diferentes pode apresentar resultados diferentes.
  - Podemos "medir" a variação esperada.
 
-### PRINCIPAIS TIPOS DE AMOSTRA:
+<h3>PRINCIPAIS TIPOS DE AMOSTRA:</h3>
 
  - Amostra aleatória simples.
  - Amostra Estratificada.
  - Amostra Sistemática.
 
 
-### Amostra aleatória simples
+**  - Amostra aleatória simples:**
 
 Um determinado número de elementos é retirado de forma aleatória.
 Usar técnica para que todos tenham a mesma chance de ser escolhido.
-(Indexar - Dá número para cada elemento da população, após isso, usa um algoritmo para gerar números aleatórios)
+> Indexar - Dá número para cada elemento da população, após isso, usa um algoritmo para gerar números aleatórios
+<br>
 
-Amostra aleatória simples COM REPOSIÇÃO:
+**  - Amostra aleatória simples com reposição:**
 
 Ao ser escolhido, ele volta para a população podendo ser escolhido novamente. 
-
+<br>
  
-Amostra aleatória simples SEM REPOSIÇÃO:
+**  - Amostra aleatória simples sem reposição:**
 
 Ao ser escolhido, não pode ser escolhida novamente.
+<br>
 
 
-### Amostra Estratificada
+**  - Amostra Estratificada:**
 
 A população pode ser divididas e chamada por estratos.
-(Por exemplo: Dividido a partir do Sexo do elemento. Assim pegando X Homens para um grupo e X mulheres para outro grupo)
+> Por exemplo: Dividido a partir do Sexo do elemento. Assim pegando X Homens para um grupo e X mulheres para outro grupo.
+<br>
 
-### Amostra Sistemática
+**  - Amostra Sistemática: **
 
 É escolhido um número aleatório, e a partir daí vai pulando a cada N elementos.
-(Por exemplo: o primeiro número escolhido aleatóreamente é o número 5 e a partir daí vai pulando de três em três. Escolhidos: 5, 8, 11, 14 ...)
+> Por exemplo: o primeiro número escolhido aleatóreamente é o número 5 e a partir daí vai pulando de três em três. Escolhidos: 5, 8, 11, 14 ...
+<br>
+
 
 
 
 <img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center"> PEQUENAS AMOSTRAS</h1>
+<br>
+
+
+ - Probabilidade de conclusões falsas
+ - Não reprodutivo
+ - Não comparável
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
 <h1 align="center"> MEDIDAS DE CENTRALIDADE</h1>
 <br>
 
 
-### MÉDIA
+<h3>MÉDIA</h3>
 
-### Média 
+- É uma medida de centralidade.
+- Somar todos os custos dos elementos e dividir quandidade de elementos.
+> Média pode ser influenciada por valores foras do padrão, diferente da Mediana.
 
-É uma medida de centralidade.
 
-Somar todos os custos dos elementos e dividir quandidade de elementos.
-
-Média pode ser influenciada por valores foras do padrão, diferente da Mediana.
-
-### Média Ponderada
+<h4>Média Ponderada</h4>
 
 Cada número está sujeito a um peso.
 
-Exemplo:
+**Exemplo:**
  - Prova A peso 1, nota 7.
  - Prova B peso 2, nota 9.
+> CALCULO => média = ( 7*1  +  9*2  ) / (1 + 2)  = 8,3
 
-média = ( 7*1  +  9*2  ) / (1 + 2)  = 8,3
+<br>
+<h3>MODA</h3>
+<br>
 
-### MODA
 
 É o valor que mais ocorre. Pode ter 2 valores que mais ocorrem.
 
-Exemplo:
+**Exemplo:**
  - Idades: 10, 12, 20, 10.
  - A moda é 10.
 
-Pode não existir uma moda (caso não tenha valores repitidos).
+> Pode não existir uma moda (caso não tenha valores repetidos).
 
-### MEDIANA
+<br>
+<h3>MEDIANA</h3>
+<br>
 
  - Valor do meio.
 
@@ -280,38 +299,35 @@ Pode não existir uma moda (caso não tenha valores repitidos).
 
 
 <img src="./image/line.png" alt="line" width="100%">
+<br>
 <h1 align="center"> MEDIDAS DE VARIABILIDADE</h1>
 <br>
 
-### VARIÂNCIA
+<h3>VARIÂNCIA</h3>
 
-Mostra a regularidade dos dados. Como os dados variam com relação a média.
+- Mostra a regularidade dos dados. Como os dados variam com relação a média.
 
-Há duas fórmulas, variância do elemento e variância da população.
+- Há duas fórmulas, variância do elemento e variância da população.
 
 
-### DESVIO PADRÃO
+<h3>DESVIO PADRÃO</h3>
 
-Quanto maior o desvio, mais os dados estão distantes da média.
-
-Se for igual a zero, significa que não existe variação nos dados. (Eles são iguais)
-
-Calculo: Raiz quadrada da Variância.
+- Quanto maior o desvio, mais os dados estão distantes da média.
+- Se for igual a zero, significa que não existe variação nos dados. (Eles são iguais)
+> Calculo: Raiz quadrada da Variância.
 
  
-### AMPLITUDE
+<h3>AMPLITUDE</h3>
 
-Diferença entre o maior e menor valor.
+- Diferença entre o maior e menor valor.
 
-### NÃO CENTRAIS: QUARTIS
+<h3>NÃO CENTRAIS: QUARTIS</h1>
 
-São três quartis:
-
- - Q0: É o menor valor
- - Q1: 25% dos menores valores
- - Q2: 50% (equivale a mediana)
- - Q3: 75% dos maiores valores
- - Q4: É o maior valor
+- Q0: É o menor valor
+- Q1: 25% dos menores valores
+- Q2: 50% (equivale a mediana)
+- Q3: 75% dos maiores valores
+- Q4: É o maior valor
 
 
 <h1 align="center"> NOTAÇÕES</h1>
@@ -339,59 +355,60 @@ São três quartis:
 </div>
 
 
-### CONCEITOS
+<h3>CONCEITOS</h3>
 
  - Experimento: O que está sendo estudado
  - Espaço Amostral: Todas as possibilidades de ocorrência do evento.
  - Evento: Resultado ocorrido
 
-### Exemplo: 
+**Exemplo:**
 
  - Experimento: Jogar moeda.
  - Espaço Amostral: Cara ou Coroa.
  - Evento: "Deu coroa !".
 
 
-### EVENTOS EXCLUDENTES
+<h3>EVENTOS EXCLUDENTES</h3>
 
-Eventos que não podem ocorrer ao mesmo tempo.
-(Exemplo: Jogar um dado e ser 1 e par)
+- Eventos que não podem ocorrer ao mesmo tempo.
+> Exemplo 1: Jogar um dado e ser 1 e par
 
-- Jogar um dado e dar 1 ou par: (1/6 + 3/6)  P = 4/6, P = 0,66
+> Exemplo 2: Jogar um dado e dar 1 ou par: (1/6 + 3/6)  P = 4/6, P = 0,66
 
-### EVENTOS NÃO EXCLUDENTES
+<h3>EVENTOS NÃO EXCLUDENTES</h3>
 
-Eventos que podem ocorrer ao mesmo tempo.
-(Exemplo: Jogar um dado e ser 2 e par)
+- Eventos que podem ocorrer ao mesmo tempo.
+> Exemplo 1: Jogar um dado e ser 2 e par
 
-- Jogar um dado e dar 2 ou par: (1/6 + 3/6 - 1/6)  P = 3/6, P = 0,5
+> Exemplo 2: Jogar um dado e dar 2 ou par: (1/6 + 3/6 - 1/6)  P = 3/6, P = 0,5
 
-### EVENTOS DEPENDENTES
+<h3>EVENTOS DEPENDENTES</h3>
 
-A ocorrência de um evento afeta o outro. Um tem que ocorrer para depois que o outro ocorra.
-(Exemplo: Tirar duas cartas do baralho sem repor. Sendo que a segunda carta deve ser dama de paus)
+- A ocorrência de um evento afeta o outro. Um tem que ocorrer para depois que o outro ocorra.
+> Exemplo 1: Tirar duas cartas do baralho sem repor. Sendo que a segunda carta deve ser dama de paus
 
-Com 6 cartas na mão (A, 2, 3, 4, 5, 6), qual a probabilidade de primeiro evento tirar A e no segundo evento tirar 4.
-
-P = (1/6 * 1/5) = 1/30 => 0,033
-
-
-### EVENTOS INDEPENDENTES
-
-A ocorrência de um evento não afeta o outro.
-(Exemplo: jogar um dado. A probabilidade de dar 3 é sempre a mesma)
-
-Qual a probabilidade de jogar dois dados, e dar 1 e 6: (dois eventos independentes)
-REPOSTA:	P = (1/6 * 1/6) => P = 1/36 => 0,027
-
-### Único evento
-
-Calculo 
-
-P = (Ocorrência Esperada) / (Número de Eventos Possíveis)
+> Exemplo 2: Com 6 cartas na mão (A, 2, 3, 4, 5, 6), qual a probabilidade de primeiro evento tirar A e no segundo evento tirar 4.
+> RESULTADO: P = (1/6 * 1/5) = 1/30 => 0,033 
 
 
-Exemplos:
+<br>
+<h3>EVENTOS INDEPENDENTES</h3>
+
+- A ocorrência de um evento não afeta o outro.
+> Exemplo 1: jogar um dado. A probabilidade de dar 3 é sempre a mesma.
+
+> Qual a probabilidade de jogar dois dados, e dar 1 e 6: (dois eventos independentes)
+> REPOSTA: P = (1/6 * 1/6) => P = 1/36 => 0,027
+
+<br>
+<h3>ÚNICO EVENTO</h3>
+
+**Calculo** 
+
+- P = (Ocorrência Esperada) / (Número de Eventos Possíveis)
+
+
+**Exemplos:**
 
 - Jogar uma moeda e dar cara: P = 1/2, P = 0,5
 
@@ -404,20 +421,6 @@ Exemplos:
 - Jogar um dado e dar ímpar ou maior que 4: P = 4/6, P = 0,66
 
 
-<br>
-<img src="./image/line.png" alt="line" width="100%">
-<br>
-<h1 align="center"> PEQUENAS AMOSTRAS</h1>
-<br>
-
-
- - Probabilidade de conclusões falsas
- - Não reprodutivo
- - Não comparável
-
-
-
-<br>
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h1 align="center"> PASSEIO ALEATÓRIO</h1>
@@ -436,12 +439,12 @@ Exemplos:
 <br>
 
 
-### Processo Estocástico
+**Processo Estocástico:**
 
 Com um algoritmo. Dada uma mesma entrada, a saída pode variar.
+<br>
 
-
-### Processo Deterministico
+**Processo Deterministico:**
 
 Com um algoritmo. Dada uma mesma entrada, apresenta sempre a mesma saída.
 
@@ -460,7 +463,7 @@ Com um algoritmo. Dada uma mesma entrada, apresenta sempre a mesma saída.
    - Os seus números favoritos.
    - Ou qualquer outra combinação.
 
-São as mesmas probabilidades !!!
+> São as mesmas probabilidades !!!
 
 
 <br>
@@ -469,7 +472,7 @@ São as mesmas probabilidades !!!
 </div>
 
 
-<br>
+
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h1 align="center"> DISTRIBUIÇÃO</h1>
@@ -481,7 +484,7 @@ São as mesmas probabilidades !!!
 - Uma forma de analisar é por meio de um histograma
 
 
-<br>
+
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h1 align="center"> DISTRIBUIÇÃO NORMAL OU GAUSSIANA</h1>
@@ -497,18 +500,16 @@ São as mesmas probabilidades !!!
   <image src="./image/distribuicao_normal_1.png" alt="data_science" height="300" width="80%">
 </div>
 
-
-### DISTRIBUIÇÃO NORMAL PADRÃO (Z)
-
-
+<br>
+<h3>DISTRIBUIÇÃO NORMAL PADRÃO (Z)</h3>
 
 <br>
 <div align="center">
   <image src="./image/distribuicao_normal_2.png" alt="data_science" height="300" width="80%">
 </div>
+<br>
 
-
-### CALCULO
+<h3>CALCULO</h3>
 
  - Como a distribuição normal é complexa de ser calculada, é aplicado os valores em uma fórmula é depois utiliza-se a Tabela Z.
 
@@ -517,9 +518,9 @@ São as mesmas probabilidades !!!
   <image src="./image/formula.png" alt="data_science" height="300" width="80%">
 </div>
 
-- Sempre que o enunciado pedir probabilidade "Mais que ..." tem que fazer: z = 1 - z 
+- Sempre que o enunciado pedir probabilidade **"Mais que ..."** tem que fazer: z = 1 - z 
 
-### EXEMPLO
+<h3>EXEMPLO</h3>
 
 <br>
 <div align="center">
@@ -552,7 +553,7 @@ São as mesmas probabilidades !!!
 </div>
 
 
-### OBSERVAÇÃO
+<h3>OBSERVAÇÃO</h3>
 
  - Distribuição Normal: É Contínua, a busca da probavbilidade é feita por intervalos.
 
@@ -561,25 +562,25 @@ São as mesmas probabilidades !!!
  - Probabilidade Discreta: Usa-se Distribuição Binomial.
 
 
-### COMO SABER SE É NORMAL ?
+<h3>COMO SABER SE É NORMAL ?</h3>
 
- - O método mais simples é gerar um Histograma. 
-(Quanto mais a amostras, mais ela vai representar a realidade)
-   - Se ele parecer um sino, diz que ele está normalmente distribuido.
+- O método mais simples é gerar um Histograma. 
+> Quanto mais a amostras, mais ela vai representar a realidade
 
- - Temos também o Diagrama de probabilidade normal (ou também, QQPLOT).
-   - Se os dados seguem a linha, tem indicios que estão normalmente distribuidos.
+- Se ele parecer um sino, diz que ele está normalmente distribuido.
 
- - Teste de Shapiro-Wilk
-   - Aplica a formula e se P for maior que 0,05 ele tem indicio que é normalmente distribuido.
+- Temos também o Diagrama de probabilidade normal (ou também, QQPLOT).
+> Se os dados seguem a linha, tem indicios que estão normalmente distribuidos.
 
-
-### OBSERVAÇÃO
-
- - Nem sempre os dados precisam ser rigorosamente normais. Dados aproximadamente normais são suficientes para a maioria dos casos.
+- Teste de Shapiro-Wilk
+> Aplica a formula e se P for maior que 0,05 ele tem indicio que é normalmente distribuido.
 
 
-<br>
+<h3>OBSERVAÇÃO</h3>
+
+- Nem sempre os dados precisam ser rigorosamente normais. Dados aproximadamente normais são suficientes para a maioria dos casos.
+
+
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h1 align="center">TEOREMA CENTRAL DO LIMITE</h1>
@@ -598,11 +599,11 @@ São as mesmas probabilidades !!!
 <h1 align="center">ESTATÍSTICA NÃO PARAMÉTRICA</h1>
 <br>
 
- - Não é abordado esta parte no curso.
+- Não é abordado esta parte no curso.
 
- - Estatística paramétrica
-   - Requer que os dados estejam em conformidade com alguma distribuição.
-     - Ex: Distribuição Normal.  
+- Estatística paramétrica
+  - Requer que os dados estejam em conformidade com alguma distribuição.
+  > Ex: Distribuição Normal.  
 
 <br>
 <div align="center">
