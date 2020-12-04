@@ -2,50 +2,74 @@
 
 <h2 align="center"> Estatística I</h2>
 
+<img src="./image/line.png" alt="line" width="100%">
+<br>
 
 ### SUMÁRIO
 
-- Conceitos gerais
-    - O que é estatística?
+- [Conceitos gerais](#conceitos)
+  - O que é estatística?
 
-    - Principais divisões
-      - Estatística Descritiva
-      - Estatística Probabilística
-      - Estatística Inferêncial
+  - Principais divisões
+    - Estatística Descritiva
+    - Estatística Probabilística
+    - Estatística Inferêncial
 
-    - Conceitos
-      - Observação
-      - Experimento
+  - Conceitos
+    - Observação
+    - Experimento
 
-    - Variaveis
+  - Variaveis
 
-    - Analise dos resultados
+  - Analise dos resultados
 
 - Análise exploratória de Dados
 
 - Amostragem
-    - Conceitos
-    - Custo de usar amostra
-    - Principais tipos de amostra
+  - Conceitos
+  - Custo de usar amostra
+  - Principais tipos de amostra
 
-- Medidas de centralidade
-    - Média
-    - Moda
-    - Mediana
+- Pequenas Amostras
 
-- Medidas de variabilidade
-   - Variância
-   - Desvio Padrão
-   - Amplitude
-   - Não Centrais: Quartis
+- Medidas de Centralidade
+  - Média
+  - Moda
+  - Mediana
+
+- Medidas de Variabilidade
+  - Variância
+  - Desvio Padrão
+  - Amplitude
+  - Não Centrais: Quartis
+  - Notações
 
 - Probabilidade
+  - Conceitos
+  - Eventos Excludentes
+  - Eventos não Excludentes
+  - Eventos dependentes
+  - Eventos independentes
+  - Único evento
 
+- Passeio Aleatório
+
+- Estocástico X Deterministico
+
+- Probabilidade em jogos de Azar
+
+- Distribuição
+
+- Distribuição Gaussiana
+
+- Teorema central do limite
+
+- Estatística não paramétrica
 
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
-<h1 align="center"> CONCEITOS GERAIS</h1>
+<h1 align="center" id="conceitos"> CONCEITOS GERAIS</h1>
 <br>
 
 ### ESTATÍSTICA
