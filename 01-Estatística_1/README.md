@@ -455,9 +455,138 @@ São as mesmas probabilidades !!!
 - Uma forma de analisar é por meio de um histograma
 
 
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center"> DISTRIBUIÇÃO NORMAL OU GAUSSIANA</h1>
+<br>
+
+ - É uma distribuição onde os dados se apresentam como sino e nele tem uma simetria dos dados.
+ - A maioria dos dados em uma distribuição normal estão distante até no máximo três desvios padrão da média.
+ - Usada para calculo de probabilidade.
+ - Ver se os dados estão normalmente distribuidos.
+
+<br>
+<div align="center">
+  <image src="./image/distribuicao_normal_1.png" alt="data_science" height="300" width="80%">
+</div>
+
+
+### DISTRIBUIÇÃO NORMAL PADRÃO (Z)
 
 
 
+<br>
+<div align="center">
+  <image src="./image/distribuicao_normal_2.png" alt="data_science" height="300" width="80%">
+</div>
+
+
+### CALCULO
+
+ - Como a distribuição normal é complexa de ser calculada, é aplicado os valores em uma fórmula é depois utiliza-se a Tabela Z.
+
+<br>
+<div align="center">
+  <image src="./image/formula.png" alt="data_science" height="300" width="80%">
+</div>
+
+- Sempre que o enunciado pedir probabilidade "Mais que ..." tem que fazer: z = 1 - z 
+
+### EXEMPLO
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_distri.png" alt="data_science" height="300" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_distri_2.png" alt="data_science" height="300" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_distri_3.png" alt="data_science" height="300" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_distri_4.png" alt="data_science" height="300" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_distri_5.png" alt="data_science" height="300" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_distri_6.png" alt="data_science" height="300" width="80%">
+</div>
+
+
+### OBSERVAÇÃO
+
+ - Distribuição Normal: É Contínua, a busca da probavbilidade é feita por intervalos.
+
+ - Não se busca probabilidades discretas! (não se busca a probabilidade de um valor exato).
+
+ - Probabilidade Discreta: Usa-se Distribuição Binomial.
+
+
+### COMO SABER SE É NORMAL ?
+
+ - O método mais simples é gerar um Histograma. 
+(Quanto mais a amostras, mais ela vai representar a realidade)
+   - Se ele parecer um sino, diz que ele está normalmente distribuido.
+
+ - Temos também o Diagrama de probabilidade normal (ou também, QQPLOT).
+   - Se os dados seguem a linha, tem indicios que estão normalmente distribuidos.
+
+ - Teste de Shapiro-Wilk
+   - Aplica a formula e se P for maior que 0,05 ele tem indicio que é normalmente distribuido.
+
+
+### OBSERVAÇÃO
+
+ - Nem sempre os dados precisam ser rigorosamente normais. Dados aproximadamente normais são suficientes para a maioria dos casos.
+
+
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center">TEOREMA CENTRAL DO LIMITE</h1>
+<br>
+
+
+<br>
+<div align="center">
+  <image src="./image/teorema_central_limite.png" alt="data_science" height="300" width="80%">
+</div>
+
+
+<br>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center">ESTATÍSTICA NÃO PARAMÉTRICA</h1>
+<br>
+
+ - Não é abordado esta parte no curso.
+
+ - Estatística paramétrica
+   - Requer que os dados estejam em conformidade com alguma distribuição.
+     - Ex: Distribuição Normal.  
+
+<br>
+<div align="center">
+  <image src="./image/nao_parametrica.png" alt="data_science" height="300" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/nao_parametrica_2.png" alt="data_science" height="300" width="80%">
+</div>
 
 
 
