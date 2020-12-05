@@ -11,7 +11,7 @@
 
 - [Testes de Hipótese](#2)
 
-- [T de Student](#3)
+- [Distribuição T de Student](#3)
 
 - [Distribuição Binomial](#4)
 
@@ -19,6 +19,15 @@
 
 - [Qui-Quadrado](#6)
 
+- [Teste T de Student](#7)
+
+- [Análise de variância(ANOVA)](#8)
+
+- [Teste de TUKEY](#9)
+
+- [Métricas de erros](#10)
+
+- [Referências adicionais](#11)
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
@@ -155,7 +164,7 @@
 9. Emitir seu veredito.
 
 <br>
-<h2 align="center" id="2">EXEMPLO TESTE DE HIPÓTESE PARA MÉDIA</h2>
+<h2 align="center">EXEMPLO TESTE DE HIPÓTESE PARA MÉDIA</h2>
 
 <br>
 <div align="center">
@@ -163,7 +172,7 @@
 </div>
 
 <br>
-<h2 align="center" id="2">EXEMPLO TESTE DE HIPÓTESE PARA PROPORÇÃO</h2>
+<h2 align="center">EXEMPLO TESTE DE HIPÓTESE PARA PROPORÇÃO</h2>
 
 <br>
 <div align="center">
@@ -184,7 +193,7 @@
 
 
 <br>
-<h2 align="center" id="2">AVALIAR RESULTADO</h2>
+<h2 align="center">AVALIAR RESULTADO</h2>
 
 <br>
 <div align="center">
@@ -220,7 +229,7 @@
 
 
 <br>
-<h2 align="center" id="2">EXEMPLO T  DE STUDENT</h2>
+<h2 align="center">EXEMPLO T  DE STUDENT</h2>
 
 <br>
 <div align="center">
@@ -276,7 +285,7 @@
 
 
 <br>
-<h2 align="center" id="2">FÓRMULA</h2>
+<h2 align="center">FÓRMULA</h2>
 
 <div align="center">
   <image src="./image/formula_distribuicao_binomial.png" alt="estatistica_2" height="400" width="80%">
@@ -286,7 +295,7 @@
 
 
 <br>
-<h2 align="center" id="2">EXEMPLOS</h2>
+<h2 align="center">EXEMPLOS</h2>
 
 <div align="center">
   <image src="./image/exemplo_distribuicao_binomial_3.png" alt="estatistica_2" height="400" width="80%">
@@ -299,7 +308,7 @@
 </div>
 
 <br>
-<h2 align="center" id="2">EXEMPLO USANDO A TABELA</h2>
+<h2 align="center">EXEMPLO USANDO A TABELA</h2>
 <div align="center">
   <image src="./image/exemplo_distribuicao_binomial_5.png" alt="estatistica_2" height="400" width="80%">
 </div>
@@ -325,14 +334,14 @@
  - P(X > x)
 
 <br>
-<h2 align="center" id="2">FÓRMULA de POISSON</h2>
+<h2 align="center">FÓRMULA de POISSON</h2>
 
 <div align="center">
   <image src="./image/formula_distribuicao_poisson.png" alt="estatistica_2" height="400" width="80%">
 </div>
 
 <br>
-<h2 align="center" id="2">EXEMPLO</h2>
+<h2 align="center">EXEMPLO</h2>
 
 <div align="center">
   <image src="./image/exemplo_distribuicao_poisson_1.png" alt="estatistica_2" height="400" width="80%">
@@ -366,7 +375,7 @@
 
 
 <br>
-<h2 align="center" id="2">EXEMPLO</h2>
+<h2 align="center">EXEMPLO</h2>
 
 <div align="center">
   <image src="./image/exemplo_qui_quadrado.png" alt="estatistica_2" height="400" width="80%">
@@ -374,7 +383,7 @@
 
 
 <br>
-<h2 align="center" id="2">EXEMPLO</h2>
+<h2 align="center">EXEMPLO</h2>
 
 <div align="center">
   <image src="./image/exemplo_qui_quadrado.png" alt="estatistica_2" height="400" width="80%">
@@ -462,5 +471,89 @@ PARA VER SE HÁ DIFERENÇA É REALIZADO O **_TESTE F_**
   - Para podermos melhora-lo.
   - Para podermos fazer benchmarks.
 
-  
 
+
+<br>
+<h2 align="center">EXEMPLOS DE MÉTRICAS</h2>
+<br>
+
+<h2>MEAN ERROR (ME)</h2>
+
+- Dependente de escala.
+- A média da diferença entre realizado e previsto.
+- Quanto menor o resultado, melhor.
+
+- PROBLEMA DA MÉTRICA: Se a diferença tem valores negativos e posivitos eles podem se anular.
+- SOLUÇÃO: Por isso existe **_Mean Absolute Error (MAE)_**
+
+<div align="center">
+  <image src="./image/mean_erro.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+<br>
+
+
+<h2>MEAN ABSOLUTE ERROR (MAE)</h2>
+
+- Dependente de escala.
+- A média da diferença entre realizado e previsto.
+- Quanto menor o resultado, melhor.
+
+<div align="center">
+  <image src="./image/mean_absolute_erro.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+<br>
+
+
+<h2>ROOT MEAN SQUARED ERROR (RMSE)</h2>
+
+- Independente de escala.
+- O desvio padrão da amostra da diferença entre realizado e previsto.
+- Quanto menor o resultado, melhor.
+
+
+<div align="center">
+  <image src="./image/root_mean_squared_erro.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+
+<br>
+
+
+<h2>MEAN PERCENTAGE ERROR (MPE)</h2>
+
+- Independente de escala.(%)
+- Diferença percentual de erro.
+- Resultado em porcentagem.
+
+
+<div align="center">
+  <image src="./image/mean_percentage_erro.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+<h2>MEAN ABSOLUTE PERCENTAGE ERROR (MAPE)</h2>
+
+- Independente de escala.(%)
+- Diferença absoluta percentual de erro.
+- Resultado em porcentagem.
+
+
+<div align="center">
+  <image src="./image/mean_absolute_percentage_erro.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+
+
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="8">REFERÊNCIAS ADICIONAIS</h1>
+<br>
+
+
+- LIVRO: "ESTATÍSTICAS PARA LEIGOS"
+- LIVRO: "COMO MENTIR COM ESTATÍSTICA"
+- SITE:  [Portal Action](http://www.portalaction.com.br/)
