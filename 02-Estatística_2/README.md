@@ -11,6 +11,9 @@
 
 - [Testes de Hipótese](#2)
 
+- [T de Student](#3)
+
+- [Distribuição Binomial](#4)
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
@@ -145,3 +148,95 @@
 7. Encontrar o *valor-p* na Tabela Z.
 8. Comparar com seu *alfa*.
 9. Emitir seu veredito.
+
+<br>
+<h2 align="center" id="2">EXEMPLO TESTE DE HIPÓTESE PARA MÉDIA</h2>
+
+<br>
+<div align="center">
+  <image src="./image/teste_hipotese_exemplo_media.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+<br>
+<h2 align="center" id="2">EXEMPLO TESTE DE HIPÓTESE PARA PROPORÇÃO</h2>
+
+<br>
+<div align="center">
+  <image src="./image/teste_hipotese_exemplo_proporcao.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/escolha_alfa.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+
+<br>
+<h4>VALOR IDEAL</h4>
+
+- Amostra grande
+- Alfa pequeno
+
+
+<br>
+<h2 align="center" id="2">AVALIAR RESULTADO</h2>
+
+<br>
+<div align="center">
+  <image src="./image/avaliar_resultado.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="3">DISTRIBUIÇÃO T DE STUDENT</h1>
+<br>
+
+- Utilizada quando a amostra é pequena (menor que 30).
+- E não se conhece o desvio padrão da população.
+- Custo: Maior variabilidade.
+> Por exemplo: Em um teste de hipótese.
+- Tendência maior de encontrar valores nas caudas(caudas maiores).
+- Se n >= 30, vai dar na mesma que uma distribuição normal.
+
+**- Você pode usar T de Student para:**
+  - Calcular probabilidades
+  - Calcular Intervalos de Confiança
+  - Executar testes de Hipótese
+
+**- Como usar T de Student:**
+  - Calculamos o valor T
+  - Consultamos uma tabela de Distribuição T
+
+<br>
+<div align="center">
+  <image src="./image/grau_liberdade.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+
+<br>
+<h2 align="center" id="2">EXEMPLO T  DE STUDENT</h2>
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_t_student.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_t_student_2.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/exemplo_t_student_3.png" alt="estatistica_2" height="400" width="80%">
+</div>
+
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="4">DISTRIBUIÇÃO BINOMIAL</h1>
+<br>
+
