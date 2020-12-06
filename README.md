@@ -11,6 +11,6 @@
  - [Estatística I](./01-Estatistica_1/#0_1)
  - [Estatística II](./02-Estatistica_2/#0_1)
  - [Regressão Linear](./03-Regressao_linear/#0_1)
-
+ - [Regressão Logística](./04-Regressao_logistica/#0_1)
 
  <img src="./01-Estatistica_1/image/line.png" alt="line" width="100%">
