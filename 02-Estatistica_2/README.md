@@ -1,6 +1,6 @@
 <h1 align="center"> DATA SCIENCE</h1>
 
-<h2 align="center"> Estatística I</h2>
+<h2 align="center" id="0_2"> Estatística II</h2>
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
