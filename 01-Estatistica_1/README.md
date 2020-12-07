@@ -132,8 +132,9 @@ Condições ou tratamentos são impostos a grupos, para avaliar o resultado.
 
 <h4>QUALITATIVAS:</h4>
 
-<p>**Nominais:** Cores; Animal;</p>
-<p>**Ordinais:** Cargo;</p>
+**Nominais:** Cores; Animal;
+
+**Ordinais:** Cargo;
 
 <br>
 
