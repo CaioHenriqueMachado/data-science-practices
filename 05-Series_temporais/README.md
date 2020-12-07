@@ -10,6 +10,7 @@
 - [Introdução](#1)
 - [Componentes de uma série temporal](#2)
 - [Exemplos de uma série temporal](#3)
+- [Previsões com ARIMA](#4)
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
@@ -128,7 +129,7 @@
 <br>
 <h3>CICLOS</h3>
 
-- São variações que não estão relacionadas a um intervalo de tempo, tendem a durar mais e ter picos maiores que o ciclo sazional.
+- São variações que não estão relacionadas a um intervalo de tempo, tendem a durar mais e ter picos maiores que o ciclo sazonal.
 > Ex: Ciclos temporais como El ninho. Ciclo economico que afeta a bolsa de valores
 
 
@@ -155,7 +156,7 @@
 
 
 <h3 align="center">TRANSPORTE DE PASSAGEIROS</h3>
-<h3 align="center">- [X] Teste</h3>
+<h3 align="center">(Efeito Sazonal, Efeito Tendência)</h3>
 <div align="center">
   <image src="./image/series_temporais_exemplo_1.png" alt="regressão_linear" height="400" width="80%">
 </div>
@@ -163,51 +164,118 @@
 <br>
 
 
-<h3 align="center">EXEMPLO SAZIONAL ()</h3>
+<h3 align="center">MILHAS PERCORRIDAS POR AVIÕES</h3>
+<h3 align="center">(Efeito Tendência)</h3>
 <div align="center">
-  <image src="./image/series_temporais_exemplo_1.png" alt="regressão_linear" height="400" width="80%">
+  <image src="./image/series_temporais_exemplo_2.png" alt="regressão_linear" height="400" width="80%">
 </div>
 
 
 
 
-<h3 align="center">EXEMPLO SAZIONAL ()</h3>
+<h3 align="center">BOLSAS DE VALORES DE ALGUSN PAÍSES</h3>
+<h3 align="center">(Clico Econômico )</h3>
 <div align="center">
-  <image src="./image/series_temporais_exemplo_1.png" alt="regressão_linear" height="400" width="80%">
+  <image src="./image/series_temporais_exemplo_3.png" alt="regressão_linear" height="400" width="80%">
 </div>
 
 
 
 
-<h3 align="center">EXEMPLO SAZIONAL ()</h3>
+<h3 align="center">MEDIDA DE NÍVEL DE UM LAGO</h3>
+<h3 align="center">(Efeito Aleatório)</h3>
 <div align="center">
-  <image src="./image/series_temporais_exemplo_1.png" alt="regressão_linear" height="400" width="80%">
+  <image src="./image/series_temporais_exemplo_4.png" alt="regressão_linear" height="400" width="80%">
 </div>
 
 
 
 
-<h3 align="center">EXEMPLO SAZIONAL ()</h3>
+<h3 align="center">TEMPERATURA MÉDIA DE UM CASTELO</h3>
+<h3 align="center">(Efeito Sazonal)</h3>
 <div align="center">
-  <image src="./image/series_temporais_exemplo_1.png" alt="regressão_linear" height="400" width="80%">
+  <image src="./image/series_temporais_exemplo_5.png" alt="regressão_linear" height="400" width="80%">
 </div>
 
 
 
 
-<h3 align="center">EXEMPLO SAZIONAL ()</h3>
+<h3 align="center">USO DO CINTO DE SEGURANÇA</h3>
 <div align="center">
-  <image src="./image/series_temporais_exemplo_1.png" alt="regressão_linear" height="400" width="80%">
+  <image src="./image/series_temporais_exemplo_6.png" alt="regressão_linear" height="400" width="80%">
 </div>
 
 
 
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="4"> ARIMA</h1>
+<br>
 
-<h3 align="center">EXEMPLO SAZIONAL ()</h3>
+- Técnica usada para fazer previsões.
+
+- **Robusto:** Pode ser usado em praticamente qualquer tipo de Série temporal.
+
+- **Requer dados estacionários:** pode  ser transformada usando diferenciação: remove tendências.
+
+
+<h3>COMPOSIÇÃO</h3>
+
+É composto por 3 elementos:
+
+- **AR - Autoregressivo:** Avalia a relação entre os períodos(lags): autocorrelação.
+
+- **I - Integrated:** Aplica a diferenciação, se necessária.
+
+- **MA - Moving Average:** Avalia erros entre períodos e extrai estes erros.
+
+
+<br>
 <div align="center">
-  <image src="./image/series_temporais_exemplo_1.png" alt="regressão_linear" height="400" width="80%">
+  <image src="./image/arima.png" alt="regressão_linear" height="400" width="80%">
+</div>
+
+<br>
+<h3>ARIMA SAZONAL</h3>
+
+
+- Inclui, além (p, d, q), os elementos (P, D, Q)
+
+<br>
+<h3 align="center">Como saber qual melhor modelo ?</h3>
+<div align="center">
+  <image src="./image/arima_melhor_modelo.png" alt="regressão_linear" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/arima_pdq.png" alt="regressão_linear" height="400" width="80%">
 </div>
 
 
+<br>
+<div align="center">
+<h3 align="center">COMO FAZER ?</h3>
+  <image src="./image/arima_como_fazer.png" alt="regressão_linear" height="400" width="80%">
+</div>
 
+
+<br>
+<div align="center">
+<h3 align="center">SOLUÇÃO</h3>
+  <image src="./image/arima_solucao.png" alt="regressão_linear" height="400" width="80%">
+</div>
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="5"> REFERÊNCIAS ADICIONAIS</h1>
+<br>
+
+
+- **Livro:** _The Analysis o Time Series_ 
+> Mais técnico.
+
+- **Livro:** _Forecasting: Principles and Practice_
+> Gratuito, em linguagem R.
 
