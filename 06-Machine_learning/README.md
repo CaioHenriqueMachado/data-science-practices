@@ -12,7 +12,11 @@
 - [Conceitos](#3)
 - [Tarefas](#4)
 - [Classificação](#5)
-
+- [Classificação II - Matriz de confusão](#6)
+- [Classificação III - Custo](#7)
+- [Codificação de Categorias](#8)
+- [Agrupamentos](#9)
+- [Regra de associação](#10)
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h1 align="center" id="1"> INTRODUÇÃO</h1>
@@ -158,7 +162,7 @@ Machine learning está dividido em 4 tarefas:
 <br>
 <h3 align="center">TESTE</h3>
 <div align="center">
-  <image src="./image/machine_learning_tipo_dados_teste.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_tipo_dados_teste.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 
@@ -176,36 +180,36 @@ Machine learning está dividido em 4 tarefas:
 
 <br>
 <div align="center">
-  <image src="./image/machine_learning_cassificacao.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_cassificacao.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 <br>
 <div align="center">
-  <image src="./image/machine_learning_descricao.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_descricao.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 <br>
 <h3 align="center"> REGRESSÃO</h3>
 <div align="center">
-  <image src="./image/machine_learning_descricao_1.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_descricao_1.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 <br>
 <h3 align="center">AGRUPAMENTOS</h3>
 <div align="center">
-  <image src="./image/machine_learning_descricao_2.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_descricao_2.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 <br>
 <h3 align="center">REGRA DE ASSOCIAÇÃO</h3>
 <div align="center">
-  <image src="./image/machine_learning_descricao_3.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_descricao_3.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 <br>
 <h3 align="center">EXEMPLO</h3>
 <div align="center">
-  <image src="./image/machine_learning_descricao_4.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_descricao_4.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 
@@ -220,7 +224,7 @@ Machine learning está dividido em 4 tarefas:
 <h3 align="center">TAREFA NÃO É ALGORITMO</h3>
 
 <div align="center">
-  <image src="./image/machine_learning_tarefa_algoritmo.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_tarefa_algoritmo.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 
@@ -238,12 +242,12 @@ Machine learning está dividido em 4 tarefas:
 <h3 align="center">EXEMPLOS DE CLASSIFICAÇÃO</h3>
 
 <div align="center">
-  <image src="./image/machine_learning_iris.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_iris.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 <br>
 <div align="center">
-  <image src="./image/machine_learning_exemplos.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_exemplos.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 
@@ -252,16 +256,365 @@ Machine learning está dividido em 4 tarefas:
 <h3 align="center">AVALIAÇÃO</h3>
 <h4 align="center">Não é tão usado pois pode ter super ajuste</h4>
 <div align="center">
-  <image src="./image/machine_learning_avaliacao_1.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_avaliacao_1.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 <br>
 <div align="center">
-  <image src="./image/machine_learning_avaliacao_2.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_avaliacao_2.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
 
 <br>
 <div align="center">
-  <image src="./image/machine_learning_avaliacao_3.png" alt="Machine Learning" height="400" width="60%">
+  <image src="./image/machine_learning_avaliacao_3.png" alt="Machine Learning" height="400" width="80%">
 </div>
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="6"> CLASSIFICAÇÃO: MATRIZ DE CONFUSÃO</h1>
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_matriz_confusao_exemplo.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_matriz_confusao_exemplo_1.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+
+<h3>SUPER AJUSTE X SUB AJUSTE</h3>
+
+**CAUSAS:**
+- Dados não representativos.
+- Dados não significativos(poucos)
+- Forma de treinamento.
+- Classe rara.
+> Ex: Transações de Fraude: a fraude é uma classe rara. O modelo pode ter dificuldade de aprender essa classe.
+**SOLUÇÃO: Estratificação**
+- Modelo incorreto.
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_sub_super.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="6"> CLASSIFICAÇÃO III: CUSTO</h1>
+
+- Ajustar diferentes variaveis do modelo pode trazer uma diferença significativa no resultado.
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_custo.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_melhorar_modelo.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_metrica.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="6"> CLASSIFICAÇÃO IV: TIPOS DE ALGORITMOS</h1>
+
+- Árvores de Decisão.
+- Regras.
+- Naive Bayes.
+- Redes Bayesianas.
+- Redes Neurais Artificiais e aprendizado Profundo.
+- Máquina de Vetor de Suporte.
+- Métodos de Grupos.
+- Aprendizado baseado em instâncias.
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_arvore_decisao.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<h3>NAIVE BAYES</h3>
+
+- Baseado na teoria das probabilidades e que supõe que os atributos vão influenciar a classe de forma independente.
+
+
+<br>
+<h3>REDE BAYESIANAS</h3>
+<div align="center">
+  <image src="./image/machine_learning_rede_bayesiana.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+
+<br>
+<h3>MÁQUINA DE VETOR DE SUPORTE</h3>
+<div align="center">
+  <image src="./image/machine_learning_svm.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+
+
+<h3>MÉTODOS DE GRUPOS</h3>
+
+São grupos de classificadores.
+
+
+- Florestas Aleatórias.
+- Boosting.
+
+
+<h3>APRENDIZADO BASEADO EM INSTÂNCIA</h3>
+
+- Ele busca uma semelhança entre os dados históricos e o dado que você quer classificar.
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_instancia.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+
+<br>
+<h3>SELEÇÃO DE ATRIBUTOS</h3>
+<div align="center">
+  <image src="./image/machine_learning_atributos.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_atributos_1.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="7"> CODIFICAÇÃO DE CATEGORIAS</h1>
+
+- Algoritmos entendem números
+- **_Categorial encoding_** é o processo de transformar categorias em números
+- **Duas formas:**
+  - Label encoding
+  - One-hot encoding
+
+
+<br>
+<h3>LABEL ENCODING</h3>
+<div align="center">
+  <image src="./image/machine_learning_label_encoding.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+**PROSSÍVEL PROBLEMA:**
+
+- Problema: O algoritmo pode correlacionar os dados como uma ordem de grandeza !  
+> EX: tem ordem de grandeza: prata, ouro, diamante.
+> Ex: não tem ordem de grandeza: casado, solteiro, divorciado.
+
+
+<br>
+<h3>ONE HOT ENCODING</h3>
+<div align="center">
+  <image src="./image/machine_learning_one_hot_encoding.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+**PROSSÍVEL PROBLEMA:**
+
+- Problema: Pode acabar tendo muitos atributos.
+- DUMMY VARIABLE TRAP
+
+
+<br>
+<h3>DUMMY VARIABLE TRAP</h3>
+<div align="center">
+  <image src="./image/machine_learning_dummy.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_usar.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="8"> DIMENSIONAMENTO DE CARACTERÍSTICAS</h1>
+
+- Processo de transformação de dados númericos.
+- Variáveis em escalas diferentes.
+  - Contribuem de forma desbalanceada para o modelo.
+  > Ex: Salário e Altura.
+
+- **_Gradient Descent_** converge mais rapidamente para o mínimo local.
+
+<br>
+
+**TÉCNICAS**
+
+- Padronização (Z-score)
+- Normalização (Min-Max)
+
+
+<br>
+<h3 align="center">PADRONIZAÇÃO (Z-score)</h3>
+<div align="center">
+  <image src="./image/machine_learning_padronizacao.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<h3 align="center">NORMALIZAÇÃO (Min-Max)</h3>
+<div align="center">
+  <image src="./image/machine_learning_normalizacao.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+
+<br>
+<h3 align="center">EXEMPLO</h3>
+<div align="center">
+  <image src="./image/machine_learning_normalizacao_exemplo.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+<h3>OBSERVAÇÕES</h3>
+
+- Não vai necessáriamente melhorar seu modelo !
+- Arvores de decisão não precisam de nenhum tipo.
+- Não se aplica a atributos categóricos transformados.
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="9"> AGRUPAMENTOS</h1>
+
+**CONCEITOS:**
+
+- Tarefas não supervisionadas
+- Não existem classes
+- Objetivo é criar grupos a partir de atributos(características) das instâncias.
+
+
+<br>
+<h3 align="center">TIPOS</h3>
+<div align="center">
+  <image src="./image/machine_learning_agrupamento_tipos_1.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_agrupamento_tipos_2.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_agrupamento_tipos_3.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<h3 align="center">ALGORITMOS DE AGRUPAMENTOS</h3>
+<div align="center">
+  <image src="./image/machine_learning_agrupamento_algoritmos_1.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/machine_learning_agrupamento_algoritmos_2.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<h3 align="center">DBSCAN</h3>
+<div align="center">
+  <image src="./image/machine_learning_agrupamento_algoritmos_3.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+- DBSCAN Não é bom em grupos cujas densidades variam muito.
+
+
+<br>
+<h3 align="center">HIERÁRQUICO</h3>
+<div align="center">
+  <image src="./image/machine_learning_agrupamento_hierarquico.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="10"> REGRA DE ASSOCIAÇÃO</h1>
+
+**DEFINIÇÃO**
+
+Busca a relação entre itens.
+
+> Ex: Pessoas que compraram o produto X, também compraram o produto Y.
+
+CONCEITOS
+
+**A => B**
+
+- SUPORTE: Número de transações que contém todos os itens da transação.
+- CONFIANÇA: Indica a proporção de vezes que, em uma transação contendo o elemento A, também tem B.
+- LIFT: O quanto aumenta a frequência de B com a ocorrência de A.
+
+
+**SUPORTE**
+
+Não adianta os produtos aparecerem com frequência juntos, se raramente são comprados.
+
+
+**CONFIANÇA**
+
+Não adianta um produto ser muito comprado, se dificilmente eles aparecem juntos.
+
+
+<br>
+<h3 align="center">EXEMPLO 1</h3>
+<div align="center">
+  <image src="./image/machine_learning_regra_associacao.png" alt="Machine Learning" height="400" width="100%">
+</div>
+
+<br>
+<h3 align="center">EXEMPLO 2</h3>
+<div align="center">
+  <image src="./image/machine_learning_regra_associacao_2.png" alt="Machine Learning" height="400" width="100%">
+</div>
+
+<br>
+<h3 align="center">EXEMPLO 3</h3>
+<div align="center">
+  <image src="./image/machine_learning_regra_associacao_3.png" alt="Machine Learning" height="400" width="100%">
+</div>
+
+
+<br>
+<h3 align="center">ALGORITMOS ASSOCIADORES</h3>
+<div align="center">
+  <image src="./image/machine_learning_algoritmo_associacao.png" alt="Machine Learning" height="400" width="100%">
+</div>
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="11"> REFERÊNCIAS ADICIONAIS</h1>
+
+
+Livro: _Introduction to Data Mining_
+
+Livro: _Data mining: Practical Machine Learning Tools and Techniques_
