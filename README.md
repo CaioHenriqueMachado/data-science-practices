@@ -15,6 +15,6 @@
  - [Séries Temporais](./05-Series_temporais/#0_1)
  - [Machine Learning](./06-Machine_learning/#0_1)
  - [Neural Networks e Deep Learning](./07-Neural_networks_e_deep_learning/#0_1)
- 
+ - [Grafos](./08-Grafos/#0_1)
 
  <img src="./01-Estatistica_1/image/line.png" alt="line" width="100%">
