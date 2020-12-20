@@ -36,6 +36,7 @@ Linguagem de consulta:
 - **DQL - Data Query Language**
   - Select
 
+
 Definir estruturas de Dados:
 - **DDL - Data Definition Language**
   - CREATE TABLE
@@ -71,6 +72,5 @@ Definir estruturas de Dados:
 > Selecionar todos os atibutos da entidade Cliente
 
 
->
 `SELECT clientes,sexo,status FROM CLIENTES_TBL;`
-
+> Selecionar os atibutos sexo, cliente e status da entidade Cliente
