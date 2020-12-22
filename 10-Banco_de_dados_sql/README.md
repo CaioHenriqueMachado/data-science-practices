@@ -9,7 +9,7 @@
 
 - [Introdução](#1)
 - [DDL: Data definition Language](#2)
-- [Select Básico](#3)
+- [DQL: Data Query Language](#3)
 - [Joins](#4)
 - [DML: Data Manipulation Language](#5)
 - [Referências Adicionais](#6)
@@ -58,7 +58,7 @@ Definir estruturas de Dados:
 <br>
 <h2 align="center" >RESUMO</h2>
 <div align="center">
-  <image src="./image/resumo1.png" alt="Machine Learning" height="400" width="80%">
+  <image src="./image/resumo1.png" alt="Machine Learning" height="400" width="100%">
 </div>
 
 
@@ -68,13 +68,80 @@ Definir estruturas de Dados:
 <br>
 
 
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="3">DATA QUERY LANGUAGE (DQL)</h1>
+<br>
+
+
+
 `SELECT * FROM CLIENTES_TBL;`
-> Selecionar todos os atibutos da entidade Cliente
+> Selecionar todos os atributos da entidade Cliente.
 
 
-`SELECT clientes,sexo,status FROM CLIENTES_TBL;`
-> Selecionar os atibutos sexo, cliente e status da entidade Cliente
+`SELECT cliente,sexo,status FROM CLIENTES_TBL;`
+> Selecionar os atributos cliente, sexo e status da entidade Cliente.
 
 
-`SELECT clientes,sexo,status FROM CLIENTES_TBL;`
-> Selecionar os atibutos sexo, cliente e status da entidade Cliente
+`SELECT cliente,sexo,status FROM CLIENTES_TBL;`
+> Selecionar os atributos cliente, sexo e status da entidade Cliente.
+
+`SELECT cliente, sexo, status FROM CLIENTES_TBL WHERE status = IN ('silver','plantinum')`
+> Selecionar os atributos cliente, sexo e status da entidade Cliente onde tenha status 'silver' ou 'platinum'.
+
+`SELECT cliente, sexo, status FROM CLIENTES_TBL WHERE cliente like '%Alb%'`
+> Selecionar os atributos cliente, sexo e status da entidade Cliente onde o dado cliente tenha como subconjunto "Alb".
+
+
+`SELECT * FROM VENDAS_TLB WHERE total > 6000`
+> Selecionar todos os atributos da entidade Cliente onde o total seja maior que 6000.
+
+`SELECT cliente FROM cliente order by cliente`
+> Selecionar o atributo cliente da entidade Cliente com atributo cliente em ordem crescente.
+
+`SELECT cliente, status FROM cliente order by cliente DESC`
+> Selecionar o atributo cliente e status da entidade Cliente com atributo cliente em ordem decrescente.
+
+`SELECT cliente, status FROM cliente order by cliente desc, status`
+> Selecionar o atributo cliente, status da entidade Cliente com atributo cliente e depois status em ordem crescente.
+
+`SELECT * FROM VENDAS_TLB WHERE total  between 6000 and 8000`
+> Selecionar todos os atributos da entidade Cliente onde o atributo total esteja entre 6000 e 8000.
+
+`SELECT * FROM VENDAS_TLB  limit 10`
+> Selecionar todos os atributos da entidade Cliente limitando os registros em 10.
+
+`SELECT distinct status from clientes`
+> Selecionar o atributo Status da entidade Clientes  onde sejam distintos (Vai trazer as opções de status).
+
+`Select count(*) from vendas`
+> Irá contar a quantidade de registros na tabelas vendas.
+
+`Select count(*) from vendas WHERE total > 6000`
+> Irá contar valores com total maior que 6000.
+
+**AGRUPANDO:**
+`select idvendedor, count(idvendedor) from vendas GROUP BY idvendedor`
+>  Traz o id do vendedor, contando quantas vezes cada um apareceu.
+
+**AGRUPANDO COM HAVING:**
+
+`select idvendedor, count(idvendedor) from vendas GROUP BY idvendedor HAVING count(idvendedor) > 40`
+>  Traz o id do vendedor, contando quantas vezes cada um apareceu. Sendo essa contagem maior que 40 vendas.
+
+**AGREGAÇÃO:**
+
+**- MIN():** Menor valor
+**- MAX():** Maior valor
+**- AVG():** Média entre valores
+**- SUM():** Soma dos valores
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="4">JOINS</h1>
+<br>
+
+
