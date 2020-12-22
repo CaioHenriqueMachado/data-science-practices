@@ -74,3 +74,7 @@ Definir estruturas de Dados:
 
 `SELECT clientes,sexo,status FROM CLIENTES_TBL;`
 > Selecionar os atibutos sexo, cliente e status da entidade Cliente
+
+
+`SELECT clientes,sexo,status FROM CLIENTES_TBL;`
+> Selecionar os atibutos sexo, cliente e status da entidade Cliente
