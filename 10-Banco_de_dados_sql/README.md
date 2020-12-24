@@ -144,4 +144,46 @@ Definir estruturas de Dados:
 <h1 align="center" id="4">JOINS</h1>
 <br>
 
+Joins: Unir dados Através de PK e FK.
 
+<br>
+<h2 align="center" >TIPOS</h2>
+<div align="center">
+  <image src="./image/joins.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<h2 align="center" >INNER JOIN</h2>
+<div align="center">
+  <image src="./image/innerjoin.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<h2 align="center" >LEFT JOIN</h2>
+<div align="center">
+  <image src="./image/leftjoin.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<h2 align="center" >RIGHT JOIN</h2>
+<div align="center">
+  <image src="./image/rightjoin.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<br>
+<h2 align="center" >FULL JOIN</h2>
+<div align="center">
+  <image src="./image/fulljoin.png" alt="Machine Learning" height="400" width="80%">
+</div>
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="5">DML: DATA MANIPULATION LANGUAGE</h1>
+<br>
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="6">REFERÊNCIAS ADICIONAIS</h1>
+<br>
