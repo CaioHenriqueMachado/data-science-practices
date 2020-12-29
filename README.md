@@ -17,6 +17,6 @@
  - [Neural Networks e Deep Learning](./07-Neural_networks_e_deep_learning/#0_1)
  - [Grafos](./08-Grafos/#0_1)
  - [Mineração de Texto e processamento de linguagem natural](./09-Mineracao_texto_e_linguagem_natural/#0_1)
- - [Banco de Dados e Linguagem SQL](./09-Banco_de_dados_sql/#0_1)
+ - [Banco de Dados e Linguagem SQL](./10-Banco_de_dados_sql/#0_1)
 
  <img src="./01-Estatistica_1/image/line.png" alt="line" width="100%">
