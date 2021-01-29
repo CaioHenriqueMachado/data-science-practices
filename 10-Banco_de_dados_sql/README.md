@@ -152,7 +152,7 @@ Joins: Unir dados Através de PK e FK.
   <image src="./image/joins.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
-Agendado para a Sexta-Feira
+Agendado para a Sexta-Feirafdfd
 
 <br>
 <h2 align="center" >INNER JOIN</h2>
