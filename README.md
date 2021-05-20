@@ -5,7 +5,6 @@
 <img src="./01-Estatistica_1/image/line.png" alt="line" width="100%">
 <br>
 
-
 ### SUMÁRIO
 
  - [Estatística I](./01-Estatistica_1/#0_1)
