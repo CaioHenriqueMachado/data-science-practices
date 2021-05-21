@@ -203,3 +203,5 @@ Joins: Unir dados Através de PK e FK.
 <br>
 <h1 align="center" id="6">REFERÊNCIAS ADICIONAIS</h1>
 <br>
+
+Livro: _SQL Practice Problems_
