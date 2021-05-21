@@ -152,8 +152,6 @@ Joins: Unir dados Através de PK e FK.
   <image src="./image/joins.png" alt="Machine Learning" height="400" width="80%">
 </div>
 
-Agendado para a Sexta-Feirafdfd
-
 <br>
 <h2 align="center" >INNER JOIN</h2>
 <div align="center">
@@ -183,6 +181,22 @@ Agendado para a Sexta-Feirafdfd
 <h1 align="center" id="5">DML: DATA MANIPULATION LANGUAGE</h1>
 <br>
 
+**INSERT:**
+
+`INSERT INTO clientes(idcliente, cliente, estado, sexo, status) VALUES (251, 'Fernando Amaral', 'RS', 'M', 'Silver');`
+> Insere um dado na tabela clientes.
+
+
+**UPDATE:**
+
+`UPDATE clientes SET estado='MS', status='Platinum' WHERE idcliente=251;`
+> Atualiza um dado na tabela clientes.
+
+
+**DELETE:**
+
+`DELETE FROM clients WHERE idcliente=251;`
+> Deleta um dado na tabela clientes.
 
 
 <img src="./image/line.png" alt="line" width="100%">
