@@ -21,3 +21,9 @@
  <img src="./01-Estatistica_1/image/line.png" alt="line" width="100%">
 
 
+
+
+COMANDOS INTERNOS:
+conda activate
+conda deactivate
+(ver forma de criar atalho)
