@@ -19,3 +19,5 @@
  - [Banco de Dados e Linguagem SQL](./10-Banco_de_dados_sql/#0_1)
 
  <img src="./01-Estatistica_1/image/line.png" alt="line" width="100%">
+
+
