@@ -1,19 +1,19 @@
 <h1 align="center"> DATA SCIENCE</h1>
 
-<h2 align="center" id="0_1">Banco de dados e Linguagem SQL</h2>
+<h2 align="center" id="0_1">Banco de dados e Linguagem SQL e NoSQL</h2>
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 
 ### SUMÁRIO
 
-- [Introdução](#1)
+- [Introdução SQL](#1)
 - [DDL: Data definition Language](#2)
 - [DQL: Data Query Language](#3)
 - [Joins](#4)
 - [DML: Data Manipulation Language](#5)
 - [Referências Adicionais](#6)
-
+- [Introdução NoSQL](#7)
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
@@ -205,3 +205,14 @@ Joins: Unir dados Através de PK e FK.
 <br>
 
 Livro: _SQL Practice Problems_
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="7">INTRODUÇÃO NOSQL</h1>
+<br>
+
+<div align="center">
+  <image src="./image/NoSQL.png" alt="NoSql" height="400" width="80%">
+</div>
+
