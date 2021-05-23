@@ -212,7 +212,62 @@ Livro: _SQL Practice Problems_
 <h1 align="center" id="7">INTRODUÇÃO NOSQL</h1>
 <br>
 
+O banco de dados NoSql veio como uma alternativa de se trabalhar com dados,
+existem casos e casos no qual cada tipo de banco tem um melhor desempenho.
+
+
 <div align="center">
-  <image src="./image/NoSQL.png" alt="NoSql" height="400" width="80%">
+  <image src="./image/NoSQL.png" alt="NoSql" height="300" width="80%">
 </div>
 
+Os produtos buscam resolver problemas específicos de certas aplicações, que eram
+mais difíceis de resolver no modelo relacional:
+- Processamento eficiente
+- Paralelismo
+- Escalabilidade
+- Custo
+
+<div align="center">
+  <image src="./image/ForTypes.png" alt="types" height="300" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/KVP.png" alt="KVP" height="350" width="80%">
+</div>
+
+
+<br>
+<div align="center">
+  <image src="./image/ColOrdenadas.png" alt="Colunas ordenadas" height="350" width="80%">
+</div>
+
+
+<br>
+<div align="center">
+  <image src="./image/BD_grafos.png" alt="BD grafos" height="300" width="80%">
+</div>
+
+<br>
+<div align="center">
+  <image src="./image/BD_documents.png" alt="BD documents" height="350" width="80%">
+</div>
+
+
+**EXEMPLOS DE APLICAÇÕES:**
+
+- Sessão de Usuário em Aplicações Web
+- Conteúdo como e-books, artigos e documentos em geral
+- Agregação ou Repositório Central de Dados
+- Plataformas de Anúncios Direcionados
+- EHR (Eletronic Healthcare Records)
+- Analise de Serie Temporal
+- Dados do crachá sociométrico
+
+
+<br>
+<div align="center">
+  <image src="./image/ranking.png" alt="ranking" height="350" width="60%">
+</div>
+
+Ranking: https://db-engines.com/en/ranking
