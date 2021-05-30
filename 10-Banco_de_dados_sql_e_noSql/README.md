@@ -14,6 +14,8 @@
 - [DML: Data Manipulation Language](#5)
 - [Referências Adicionais](#6)
 - [Introdução NoSQL](#7)
+- [Banco de dados de documento](#8)
+
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
@@ -271,3 +273,79 @@ mais difíceis de resolver no modelo relacional:
 </div>
 
 Ranking: https://db-engines.com/en/ranking
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="8">BANCO DE DADOS DE DOCUMENTOS</h1>
+<br>
+
+ - Armazenam chave/valor
+ - Diferente do Key Value Pair, o valor é um documento estruturado e indexado, com metadados
+ - Valor (Documento), pode ser consultado
+
+
+ **JSON:**
+ - JSON: JavaScript Object Notation
+ - Feito para troca de dados
+ - Mais compacto e legível que XML
+
+
+ - Tipos:
+   - String
+   - Número
+   - Vetor
+   - Booleano
+   - Nulo
+   - Objeto
+
+
+
+<br>
+<div align="center">
+  <image src="./image/json.png" alt="json" height="350" width="80%">
+</div>
+
+
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="9">MONGODB</h1>
+<br>
+
+ - Open Source
+ - Multiplataforma
+ - Escalável
+ - Orientado a documentos: JSON
+ - Permite documentos aninhados
+ - Indexados: pode-se buscar o conteúdo dos documentos
+ - Não tem o Schema fixo
+ - Não tem integridade referencial
+
+
+<br>
+<div align="center">
+  <image src="./image/estrutura.png" alt="estrutura" height="400" width="70%">
+</div>
+
+
+<br>
+ - Tipos:
+   - String
+   - Inteiro
+   - Booleano
+   - Double
+   - Array
+   - Timestamp
+   - Object
+
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h1 align="center" id="10">REFERÊNCIAS ADICIONAIS NOSQL</h1>
+<br>
+
+Livro: *Mongo DB The Definitive Guide*
