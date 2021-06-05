@@ -23,7 +23,7 @@
 
 
 
-
+------------------
 COMANDOS INTERNOS:
 conda activate
 conda deactivate
