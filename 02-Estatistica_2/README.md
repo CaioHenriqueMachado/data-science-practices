@@ -191,6 +191,12 @@
 - Amostra grande
 - Alfa pequeno
 
+<h4>ERRO TIPO 1</h4>
+A hipótese nula foi rejeitada, quando não deveria ter sido rejeitada.
+
+
+<h4>ERRO TIPO 2</h4>
+A hipótese nula não foi rejeitada, quando deveria ter sido rejeitada.
 
 <br>
 <h2 align="center">AVALIAR RESULTADO</h2>
