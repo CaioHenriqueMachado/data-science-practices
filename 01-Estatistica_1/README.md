@@ -1,4 +1,4 @@
-<h1 align="center"> DATA SCIENCE</h1>
+<h1 align="center">My notes about Python</h1>
 
 <h2 align="center" id="0_1"> Estatística I</h2>
 
